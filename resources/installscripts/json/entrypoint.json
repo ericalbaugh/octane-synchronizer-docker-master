@@ -1,0 +1,27 @@
+{
+  "agent-id": "1",
+  "name": "ALMNET",
+  "params": [
+    {
+      "name": "serverURL",
+      "value": "http://alm:8080/qcbin"
+    },
+    {
+      "name": "domain",
+      "value": "DEFAULT"
+    },
+    {
+      "name": "project",
+      "value": "AOS"
+    },
+    {
+      "name": "uid",
+      "value": "e5305023-0049-4ead-977c-115b01ec3f53"
+    }
+  ],
+  "endpoint-metadata": "{\"id\":\"alm\",\"version\":\"1.15\",\"displayName\":\"ALM/QC\",\"authenticationStep\":[{\"id\":\"serverURL\",\"displayName\":\"ALM/QC Server URL\",\"type\":\"url\",\"placeholder\":\"http(s)://hostname:port/qcbin\",\"validations\":{\"notEmpty\":{\"message\":\"Server URL is mandatory\"}}}],\"projectSelectionStep\":[{\"id\":\"domain\",\"dataId\":\"domains\",\"displayName\":\"ALM/QC Domain\",\"type\":\"selectOne\",\"validations\":{\"notEmpty\":{\"message\":\"ALM/QC Domain is mandatory\"}},\"$$hashKey\":\"0EA\"},{\"id\":\"project\",\"dataId\":\"projects\",\"displayName\":\"ALM/QC Project\",\"type\":\"selectOneInParent\",\"parentId\":\"domain\",\"validations\":{\"notEmpty\":{\"message\":\"ALM/QC Project is mandatory\"}},\"$$hashKey\":\"0EB\"}]}",
+  "credentials-id": "alm-entrypoint-id",
+  "credentials-desc": "ALMNET",
+  "type": "alm",
+  "uniqueness-ident": "1499802557859"
+}

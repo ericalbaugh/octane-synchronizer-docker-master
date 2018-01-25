@@ -1,0 +1,93 @@
+{
+  "workspaceId": 1002,
+  "endpointId": 1,
+  "usersMapping": {
+    "usersMapping": [
+      {
+        "hostUserid": "2008",
+        "direction": 1,
+        "remoteUsername": "alex_alm"
+      },
+      {
+        "hostUserid": "2009",
+        "direction": 1,
+        "remoteUsername": "alice"
+      },
+      {
+        "hostUserid": "1001",
+        "direction": 1,
+        "remoteUsername": "admin"
+      },
+      {
+        "hostUserid": "2010",
+        "direction": 1,
+        "remoteUsername": "cecil"
+      },
+      {
+        "hostUserid": "2013",
+        "direction": 1,
+        "remoteUsername": "james"
+      },
+      {
+        "hostUserid": "2021",
+        "direction": 1,
+        "remoteUsername": "jason"
+      },
+      {
+        "hostUserid": "2015",
+        "direction": 1,
+        "remoteUsername": "kelly"
+      },
+      {
+        "hostUserid": "2023",
+        "direction": 1,
+        "remoteUsername": "louisa"
+      },
+      {
+        "hostUserid": "2019",
+        "direction": 1,
+        "remoteUsername": "manual"
+      },
+      {
+        "hostUserid": "2016",
+        "direction": 1,
+        "remoteUsername": "mary"
+      },
+      {
+        "hostUserid": "2012",
+        "direction": 1,
+        "remoteUsername": "michael"
+      },
+      {
+        "hostUserid": "2017",
+        "direction": 1,
+        "remoteUsername": "paul"
+      },
+      {
+        "hostUserid": "2011",
+        "direction": 1,
+        "remoteUsername": "peter"
+      },
+      {
+        "hostUserid": "2020",
+        "direction": 1,
+        "remoteUsername": "ricardo"
+      },
+      {
+        "hostUserid": "2018",
+        "direction": 1,
+        "remoteUsername": "robert"
+      },
+      {
+        "hostUserid": "2022",
+        "direction": 1,
+        "remoteUsername": "roxie"
+      },
+      {
+        "hostUserid": "2014",
+        "direction": 1,
+        "remoteUsername": "tom"
+      }
+    ]
+  }
+}

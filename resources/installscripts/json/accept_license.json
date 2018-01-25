@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "application_type": "ALM_WebUI",
+      "scope_type": "application",
+      "scope_id": "WebUI",
+      "author": {
+        "type": "workspace_user",
+        "id": "1001"
+      },
+      "name": "WebUI",
+      "value": {
+        "alm-entity-form-module-settings": {},
+        "alm.settings.last.state": {
+          "lastStaticStateName": "alm-platform-landing-page",
+          "lastParams": {
+            "uiVersion": "12.55.3.112"
+          }
+        },
+        "get-started": {
+          "acceptedTSFP": "12.55.3.112"
+        }
+      }
+    }
+  ]
+}

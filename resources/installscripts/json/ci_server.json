@@ -1,0 +1,10 @@
+{
+  "data": [
+    {
+      "name": "test",
+      "server_type": "jenkins",
+      "url": "http://nimbusserver:8090",
+      "instance_id": "317b758b-8160-4421-8e2f-026683aca9f6"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "client_secret": "=73eb49a4f85f725cN",
+      "workspace_roles": {
+        "data": [
+          {
+            "type": "workspace_role",
+            "id": "1001"
+          }
+        ]
+      },
+      "name": "octanebot"
+    }
+  ]
+}

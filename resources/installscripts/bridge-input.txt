@@ -1,0 +1,23 @@
+1
+/n
+/n
+/n
+/n
+/n
+/n
+/n
+/n
+Y
+/opt/bridge
+Y
+ALM_Bridge
+http://localhost:9081/opb
+<workspace_id>
+<client_id>
+<client_secret>
+N
+1
+HPE Integration Bridge
+1099
+/n
+/n
