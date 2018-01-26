@@ -380,23 +380,73 @@
   ],
   "requirement": [
     {
-      "name": "Advantage Online Store",
+      "name": "Advantage Online Shopping",
       "subtype": "requirement_folder",
       "childEntities": [
         {
-          "name": "Advantage Online Store Database",
+          "name": "History of Online Shopping",
           "subtype":"requirement_document",
-          "description": "<p>Create a database that will hold the online store information. This information will include data as described in this requirement</p>",
+          "description": "<html><body>\n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:'calibri' , sans-serif\">The growth of the internet as a secure shopping channel has developed since 1994, with the first sales of Sting album '<a href=\"https://en.wikipedia.org/wiki/Ten_Summoner%27s_Tales\" style=\"color:blue;text-decoration:underline\" title=\"Ten Summoner's Tales\">Ten Summoner's Tales</a>'.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-2\" style=\"color:blue;text-decoration:underline\"><sup>[2]</sup></a> Wine, chocolates and flowers soon followed and were among the pioneering retail categories which fueled the growth of online shopping. Researchers found that having products that are appropriate for <a href=\"https://en.wikipedia.org/wiki/E-commerce\" style=\"color:blue;text-decoration:underline\" title=\"E-commerce\">e-commerce</a> was a key indicator of Internet success.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-3\" style=\"color:blue;text-decoration:underline\"><sup>[3]</sup></a> Many of these products did well as they are generic products which shoppers didn't need to touch and feel in order to buy. But also importantly in the early days there were few shoppers online and they were from a narrow segment: affluent, male, 30+. Online shopping has come along way since these early days and -in the UK- accounts for significant percents (depending on product category as percentages can vary).</span></span></span></p> \n</body></html>",
           "childEntities": [
             {
-              "name" : "Accounts",
+              "name" : "Growth",
               "subtype":"requirement_document",
-              "description": "<p>The database should store account information that will allow us to manage the individual accounts of our customers the account details that should be stored are as follows</p>",
+              "description": "<html><body>\n<p style=\"margin-right:0in;margin-left:0in\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">As the revenues from online sales continued to grow significantly researchers identified different types of online shoppers, Rohm &amp; Swaninathan<sup><a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-4\" style=\"color:blue;text-decoration:underline\">[4]</a></sup> identified four categories and named them &quot;<i>convenience shoppers, variety seekers, balanced buyers, and store-oriented shoppers</i>&quot;. They focused on shopping motivations and found that the variety of products available and the perceived convenience of the buying online experience were significant motivating factors. This was different for offline shoppers, who were more motivated by time saving and recreational motives.</span></span></p> \n</body></html>",
               "childEntities": [
                 {
-                  "name": "Personal account details",
+                  "name": "Statistics",
                   "subtype":"requirement_document",
-                  "description": "<p>New accounts details include:</p><ul><li>The user first and last name</li><li>An e-mail address that should also be used as a login name</li><li>A hashed password that should be salted and peppered to provide maximum protection.</li><li>Home Telephone number</li><li>Mobile telephone number</li><li>work telephone number</li></ul></div>"
+                  "description": "<html><body>\n<p style=\"margin-right:0in;margin-left:0in\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">Statistics show that in 2012, Asia-Pacific increased their international sales over 30% giving them over $433 billion in revenue. That is a $69 billion difference between the U.S. revenue of $364.66 billion. It is estimated that Asia-Pacific will increase by another 30% in the year 2013 putting them ahead by more than one-third of all global ecommerce sales.<sup>[</sup><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Precise_language\" style=\"color:blue;text-decoration:underline\" title=\"Wikipedia:Manual of Style/Dates and numbers\"><i><sup>needs update</sup></i></a><sup>]</sup> The largest online shopping day in the world is <a href=\"https://en.wikipedia.org/wiki/Singles_Day\" style=\"color:blue;text-decoration:underline\" title=\"Singles Day\">Singles Day</a>, with sales just in <a href=\"https://en.wikipedia.org/wiki/Alibaba_Group\" style=\"color:blue;text-decoration:underline\" title=\"Alibaba Group\">Alibaba</a>'s sites at US$9.3 billion in 2014.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-12\" style=\"color:blue;text-decoration:underline\"><sup>[12]</sup></a><a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-13\" style=\"color:blue;text-decoration:underline\"><sup>[13]</sup></a></span></span></p> \n</body></html>",
+                  "childEntities":[
+                    {
+                      "name": "Customers",
+                      "subtype":"requirement_document",
+                      "description": "<html><body>\n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:'calibri' , sans-serif\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">Online customers must have access to the Internet and a valid </span></span><a href=\"https://en.wikipedia.org/wiki/Online_shopping#Payment\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">method of payment</span></span></span></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"> in order to complete a transaction. Generally, higher levels of education and personal income correspond to more favorable perceptions of shopping online. Increased exposure to technology also increases the probability of developing favorable attitudes towards new shopping channels.</span></span><a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-enriquebigne-14\"><sup><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">[14]</span></span></span></sup></a></span></span></span></p> \n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:'calibri' , sans-serif\"><sup><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\"></span></span></span></sup></span></span></span></p> \n</body></html>",
+                      "childEntities":[
+                        {
+                          "name": "Go-to-Market",
+                          "subtype":"requirement_document",
+                          "description":""
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Merchants",
+                      "subtype":"requirement_document",
+                      "description": "<html><body>\n<p>When merchants update their...</p> \n</body></html>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name" : "Buying Behavior",
+              "subtype":"requirement_document",
+              "description": "<html><body>\n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:'calibri' , sans-serif\">The marketing around the digital environment, customer's buying behaviour may not be influenced and controlled by the brand and firm, when they make a buying decision that might concern the interactions with search engine, recommendations, online reviews and other information. With the quickly separate of the digital devices environment, people are more likely to use their mobile phones, computers, tablets and other digital devices to gather information. In other words, the digital environment has a growing effect on consumer's mind and buying behaviour. In an online shopping environment, interactive decision may have an influence on aid customer decision making. Each customer is becoming more interactive, and though online reviews customers can influence other potential buyers' behaviours.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-15\" style=\"color:blue;text-decoration:underline\"><sup>[</sup></a></span></span></span></p> \n</body></html>",
+              "childEntities": [
+                {
+                  "name": "Design",
+                  "subtype":"requirement_document",
+                  "description": "<html><body>\n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:'calibri' , sans-serif\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">Customers are attracted to online shopping not only because of high levels of convenience, but also because of broader selections, competitive pricing, and greater access to information.</span></span><a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-23\"><sup><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">[23]</span></span></span></sup></a><a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-24\"><sup><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">[24]</span></span></span></sup></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"> Business organizations seek to offer online shopping not only because it is of much lower cost compared to bricks and mortar stores, but also because it offers access to a worldwide market, increases customer value, and builds sustainable capabilities</span></span></span></span></span></p> \n</body></html>",
+                  "childEntities":[
+                    {
+                      "name": "Information Load",
+                      "subtype":"requirement_document",
+                      "description": "<html><body>\n<p style=\"margin-right:0in;margin-left:0in\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">Designers of online shops are concerned with the effects of information load. Information load is a product of the spatial and temporal arrangements of stimuli in the web store.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-26\" style=\"color:blue;text-decoration:underline\"><sup>[26]</sup></a> Compared with conventional retail shopping, the information environment of virtual shopping is enhanced by providing additional product information such as comparative products and services, as well as various alternatives and attributes of each alternative, etc.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-huang-27\" style=\"color:blue;text-decoration:underline\"><sup>[27]</sup></a> Two major dimensions of information load are complexity and novelty.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-28\" style=\"color:blue;text-decoration:underline\"><sup>[28]</sup></a> Complexity refers to the number of different elements or features of a site, often the result of increased information diversity. Novelty involves the unexpected, suppressed, new, or unfamiliar aspects of the site. The novelty dimension may keep consumers exploring a shopping site, whereas the complexity dimension may induce <a href=\"https://en.wikipedia.org/wiki/Impulse_purchase\" style=\"color:blue;text-decoration:underline\" title=\"Impulse purchase\">impulse purchases</a>.<a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-huang-27\" style=\"color:blue;text-decoration:underline\"><sup>[27]</sup></a></span></span></p> \n</body></html>",
+                      "childEntities":[
+                        {
+                          "name": "Consumer Needs and Expectations",
+                          "subtype":"requirement_document",
+                          "description":"<html><body>\n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:'calibri' , sans-serif\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">According to the output of a research report by </span></span><a href=\"https://en.wikipedia.org/wiki/Western_Michigan_University\" title=\"Western Michigan University\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">Western Michigan University</span></span></span></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"> published in 2005, an e-commerce website does not have to be good looking with listing on a lot of search engines. It must build relationships with customers to make money. The report also suggests that a website must leave a positive impression on the customers, giving them a reason to come back.</span></span><a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-louisfalk-29\"><sup><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">[29]</span></span></span></sup></a></span></span></span></p> \n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:'calibri' , sans-serif\"><a href=\"https://en.wikipedia.org/wiki/Dyn_(company)\" title=\"Dyn (company)\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">Dyn</span></span></span></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">, an Internet performance management company conducted a survey on more than 1400 consumers across 11 countries in </span></span><a href=\"https://en.wikipedia.org/wiki/North_America\" title=\"North America\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">North America</span></span></span></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">, </span></span><a href=\"https://en.wikipedia.org/wiki/Europe\" title=\"Europe\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">Europe</span></span></span></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">, </span></span><a href=\"https://en.wikipedia.org/wiki/Middle-East\" title=\"Middle-East\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">Middle-East</span></span></span></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"> and </span></span><a href=\"https://en.wikipedia.org/wiki/Asia\" title=\"Asia\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">Asia</span></span></span></a><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"> and the results of the survey are as follows:</span></span></span></span></span></p> \n<ul> \n<li style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"\"><span style=\"font-family:'calibri' , sans-serif\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">Online retailers must improve the website speed</span></span></span></span></span></span></li> \n<li style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"\"><span style=\"font-family:'calibri' , sans-serif\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">Online retailers must ease consumers fear around security</span></span></span></span></span></span></li> \n</ul> \n<p style=\"margin:0in 0in 8pt\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:'calibri' , sans-serif\"><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\">These concerns majorly affect the decisions of almost two thirds of the consumers.</span></span><a href=\"https://en.wikipedia.org/wiki/Online_shopping#cite_note-30\"><sup><span style=\"font-size:12pt\"><span style=\"font-family:'times new roman' , serif\"><span style=\"color:blue\">[30]</span></span></span></sup></a></span></span></span></p> \n</body></html>"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Merchants",
+                      "subtype":"requirement_document",
+                      "description": "<html><body>\n<p>When merchants update their...</p> \n</body></html>"
+                    }
+                  ]
                 }
               ]
             }
@@ -407,7 +457,7 @@
   ],
   "work_item": [
     {
-      "name": "Advantage Online  Store ",
+      "name": "Advantage Shopping Web",
       "subtype": "epic",
       "childEntities": [
         {
@@ -7861,39 +7911,6 @@
               "owner": {}
             },
             {
-              "name": "Live chat is not working from Advantage Mobile Store",
-              "subtype": "defect",
-              "description": "Live chat is not working from Advantage Mobile Store",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "07 Special Offer"
-              ],
-              "story_points": "5",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
               "name": "Can transfer money from one account to the same one",
               "subtype": "defect",
               "description": "Can transfer money from one account to the same one",
@@ -8014,7 +8031,7 @@
               }
             },
             {
-              "name": "As a user, I can select to perfom the live chat in Chrome ",
+              "name": "As a user, I can select to perform the live chat in Chrome ",
               "subtype": "story",
               "taskEntities": [
                 {
@@ -8079,7 +8096,7 @@
               }
             },
             {
-              "name": "As a user, I can select toperform the live chat in Firefox",
+              "name": "As a user, I can select to perform the live chat in Firefox",
               "subtype": "story",
               "taskEntities": [
                 {
@@ -8522,77 +8539,6 @@
               "phase": "phase.story.inprogress",
               "owner": {
                 "name": "paul_demo"
-              }
-            },
-            {
-              "name": "Cannot download live chat",
-              "subtype": "defect",
-              "description": "Cannot download live chat",
-              "severity": "4-Low",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Roar Mini"
-              ],
-              "story_points": "1",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS",
-                    "description": "Release 2 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.fixed",
-              "owner": {
-                "name": "mary_demo"
               }
             },
             {
@@ -9290,39 +9236,6 @@
               ],
               "story_points": "1",
               "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "Live chat is not working from Advantage Mobile Store",
-              "subtype": "defect",
-              "description": "Live chat is not working from Advantage Mobile Store",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Roar"
-              ],
-              "story_points": "5",
-              "phase": "phase.defect.closed",
               "owner": {}
             },
             {
@@ -13685,7 +13598,7 @@
       ]
     },
     {
-      "name": "13 Payment",
+      "name": "Billing",
       "subtype": "epic",
       "childEntities": [
         {
@@ -14347,7 +14260,7 @@
               }
             },
             {
-              "name": "As a user, I can print my invoice after checking out ",
+              "name": "As a user, I can print my invoice after checking out",
               "subtype": "story",
               "taskEntities": [
                 {
@@ -14408,77 +14321,6 @@
               "phase": "phase.story.inprogress",
               "owner": {
                 "name": "robert_demo"
-              }
-            },
-            {
-              "name": "Live chat is not working from Advantage Mobile Store",
-              "subtype": "defect",
-              "description": "Live chat is not working from Advantage Mobile Store",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 12,
-                  "remaining_hours": 12,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "07 Special Offer"
-              ],
-              "story_points": "5",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS",
-                    "description": "Release 2 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "tom_demo"
               }
             },
             {
@@ -16200,7 +16042,7 @@
           "subtype": "feature",
           "childEntities": [
             {
-              "name": "As a user, I can select toperform the live chat in IE",
+              "name": "As a user, I can select to perform the live chat in IE",
               "subtype": "story",
               "taskEntities": [
                 {
@@ -17936,29 +17778,6 @@
               "story_points": "3",
               "phase": "phase.defect.closed",
               "owner": {}
-            },
-            {
-              "name": "Live chat is not working from Advantage Mobile Store",
-              "subtype": "defect",
-              "description": "Live chat is not working from Advantage Mobile Store",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "PayPal"
-              ],
-              "story_points": "2",
-              "phase": "phase.defect.closed",
-              "owner": {}
             }
           ],
           "job_size": "1",
@@ -18301,23 +18120,7 @@
               "owner": {}
             },
             {
-              "name": "As a user, I can select to perfom the live chat in Chrome ",
-              "subtype": "story",
-              "taskEntities": [],
-              "author": {
-                "name": "kelly_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets"
-              ],
-              "story_points": "6",
-              "phase": "phase.story.done",
-              "owner": {}
-            },
-            {
-              "name": "As a user, I can select toperform the live chat in Firefox",
+              "name": "As a user, I can select to perform the live chat in Firefox",
               "subtype": "story",
               "taskEntities": [],
               "author": {
@@ -18700,77 +18503,6 @@
               "phase": "phase.defect.opened",
               "owner": {
                 "name": "paul_demo"
-              }
-            },
-            {
-              "name": "Live chat is not working from Advantage Mobile Store",
-              "subtype": "defect",
-              "description": "Live chat is not working from Advantage Mobile Store",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "PayPal"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS",
-                    "description": "Release 2 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.fixed",
-              "owner": {
-                "name": "tom_demo"
               }
             },
             {
@@ -19302,7 +19034,7 @@
       "designer": "alex_alm",
       "owner": "alex_alm",
       "test_type": [
-        "15 Security"
+        "End to End"
       ],
       "product_areas": [
         "01 Home Banner",
@@ -19323,7 +19055,7 @@
       "designer": "mary_demo",
       "owner": "mary_demo",
       "test_type": [
-        "15 Security"
+        "End to End"
       ],
       "product_areas": [
         "01 Home Banner",
@@ -19403,7 +19135,7 @@
       "designer": "robert_demo",
       "owner": "robert_demo",
       "test_type": [
-        "15 Security"
+        "End to End"
       ],
       "product_areas": [
         "01 Home Banner",
@@ -19443,9 +19175,9 @@
         "Chromebook"
       ],
       "covered_content": [
-        "As a user, I can select to perfom the live chat in Chrome ",
+        "As a user, I can select to perform the live chat in Chrome ",
         "As a user, I can define whether or not to be notified about Nasdaq companies",
-        "As a user, I can select toperform the live chat in IE"
+        "As a user, I can select to perform the live chat in IE"
       ],
       "estimated_duration": "22"
     },
@@ -19692,7 +19424,7 @@
         "Database Performance"
       ],
       "covered_content": [
-        "As a user, I can select to perfom the live chat in Chrome ",
+        "As a user, I can select to perform the live chat in Chrome ",
         "Cannot change password in Chrome"
       ],
       "estimated_duration": "15"
@@ -19748,7 +19480,7 @@
       "designer": "kelly_demo",
       "owner": "kelly_demo",
       "test_type": [
-        "15 Security"
+        "End to End"
       ],
       "product_areas": [
         "01 Home Banner",
@@ -19829,7 +19561,7 @@
       "designer": "alex_alm",
       "owner": "alex_alm",
       "test_type": [
-        "15 Security"
+        "End to End"
       ],
       "product_areas": [
         "01 Home Banner",
@@ -19938,7 +19670,7 @@
         "04 Laptops"
       ],
       "covered_content": [
-        "As a user, I can select toperform the live chat in Firefox"
+        "As a user, I can select to perform the live chat in Firefox"
       ],
       "estimated_duration": "15"
     },
