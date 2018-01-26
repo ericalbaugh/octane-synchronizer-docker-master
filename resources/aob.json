@@ -178,47 +178,112 @@
       "description": "05 Mice",
       "childEntities": [
         {
-          "name": "Mobile Search",
-          "description": "Mobile Search",
+          "name": "G502 Proteus",
+          "description": "G502 Proteus",
           "childEntities": []
         },
         {
-          "name": "Online search",
-          "description": "Online search",
+          "name": "Kensington 72337",
+          "description": "Kensington 72337",
+          "childEntities": []
+        },
+        {
+          "name": "Kensington 72352",
+          "description": "Kensington 72352",
+          "childEntities": []
+        },
+        {
+          "name": "Optical Mouse",
+          "description": "Optical Mouse",
+          "childEntities": []
+        },
+        {
+          "name": "Sculpt Touch",
+          "description": "Sculpt Touch",
+          "childEntities": []
+        },
+        {
+          "name": "Z3200 Wireless",
+          "description": "Z3200 Wireless",
+          "childEntities": []
+        },
+        {
+          "name": "Z4000 Wireless",
+          "description": "Z4000 Wireless",
+          "childEntities": []
+        },
+        {
+          "name": "Z8000 Wireless",
+          "description": "Z8000 Wireless",
           "childEntities": []
         }
       ]
     },
     {
-      "name": "Settings",
-      "description": "Settings",
+      "name": "07 Special Offer",
+      "description": "07 Special Offer",
+      "childEntities": []
+    },
+    {
+      "name": "08 Explore Now",
+      "description": "08 Explore Now",
+      "childEntities": []
+    },
+    {
+      "name": "09 Popular Items",
+      "description": "09 Popular Items",
+      "childEntities": []
+    },
+    {
+      "name": "10 Contact Us",
+      "description": "Contact Us",
+      "childEntities": []
+    },
+    {
+      "name": "11 User Profile",
+      "description": "11 User Profile",
       "childEntities": [
         {
-          "name": "User Profile",
-          "description": "User Profile",
-          "childEntities": [
-            {
-              "name": "User details",
-              "description": "User details",
-              "childEntities": []
-            },
-            {
-              "name": "Verify Phone Num",
-              "description": "Verify Phone Num",
-              "childEntities": []
-            }
-          ]
+          "name": "Create Account",
+          "description": "Create Account",
+          "childEntities": []
         },
         {
-          "name": "Notification",
-          "description": "Notification",
+          "name": "Edit Account",
+          "description": "Edit Account",
+          "childEntities": []
+        },
+        {
+          "name": "Facebook Sign In",
+          "description": "Facebook Sign In",
           "childEntities": []
         }
       ]
     },
     {
-      "name": "Performance",
-      "description": "Performance",
+      "name": "12 Shopping Cart",
+      "description": "Shopping Cart",
+      "childEntities":[]
+    },
+    {
+      "name": "13 Payment",
+      "description": "13 Payment",
+      "childEntities": [
+        {
+          "name": "Credit card",
+          "description": "Credit card",
+          "childEntities": []
+        },
+        {
+          "name": "PayPal",
+          "description": "Pay Pal",
+          "childEntities": []
+        }
+      ]
+    },
+    {
+      "name": "14 Performance",
+      "description": "14 Performance",
       "childEntities": [
         {
           "name": "Database Performance",
@@ -233,8 +298,8 @@
       ]
     },
     {
-      "name": "Security",
-      "description": "Security",
+      "name": "15 Security",
+      "description": "15 Security",
       "childEntities": [
         {
           "name": "Password",
@@ -242,24 +307,13 @@
           "childEntities": []
         },
         {
-          "name": "Secure login",
-          "description": "Secure login",
-          "childEntities": []
-        }
-      ]
-    },
-    {
-      "name": "Billing",
-      "description": "Billing",
-      "childEntities": [
-        {
-          "name": "Credit card",
-          "description": "Credit card",
+          "name": "Secure Login",
+          "description": "Secure Login",
           "childEntities": []
         },
         {
-          "name": "PayPal",
-          "description": "Pay Pal",
+          "name":"Meltdown and Spectre",
+          "description": "Meltdown and Spectre",
           "childEntities": []
         }
       ]
@@ -397,7 +451,7 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "4",
               "team": {
@@ -588,8 +642,8 @@
                 "01 Home Banner",
                 "02 Speakers",
                 "03 Tablets",
-                "Settings",
-                "Notification"
+                "07 Special Offer",
+                "08 Explore Now"
               ],
               "story_points": "2",
               "team": {
@@ -653,7 +707,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "6",
               "team": {
@@ -780,7 +834,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "2",
               "team": {
@@ -1098,7 +1152,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "6",
               "team": {
@@ -1304,7 +1358,7 @@
               "product_areas": [
                 "PayPal",
                 "01 Home Banner",
-                "Security"
+                "15 Security"
               ],
               "story_points": "5",
               "team": {
@@ -1447,7 +1501,7 @@
                 "02 Speakers",
                 "03 Tablets",
                 "05 Mice",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "team": {
@@ -1518,7 +1572,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "3",
               "team": {
@@ -1589,7 +1643,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "3",
               "team": {
@@ -1801,7 +1855,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "3",
               "team": {
@@ -1871,7 +1925,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "3",
               "team": {
@@ -1941,7 +1995,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "4",
               "team": {
@@ -2012,7 +2066,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "3",
               "team": {
@@ -2083,7 +2137,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "3",
               "team": {
@@ -2154,7 +2208,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "3",
               "team": {
@@ -2224,7 +2278,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "team": {
@@ -2295,7 +2349,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "3",
               "team": {
@@ -2480,7 +2534,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -2513,7 +2567,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -2546,7 +2600,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "7",
               "phase": "phase.defect.closed",
@@ -2873,7 +2927,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "User details"
+                "Create Account"
               ],
               "story_points": "6",
               "phase": "phase.story.done",
@@ -3064,7 +3118,7 @@
               },
               "product_areas": [
                 "01 Home Banner",
-                "Settings",
+                "07 Special Offer",
                 "Mobile Login",
                 "05 Mice"
               ],
@@ -3277,7 +3331,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "1",
               "team": {
@@ -3687,7 +3741,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "8",
               "team": {
@@ -3815,7 +3869,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "team": {
@@ -3885,7 +3939,7 @@
               "product_areas": [
                 "02 Speakers",
                 "05 Mice",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "team": {
@@ -3954,7 +4008,7 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "5",
               "team": {
@@ -4509,7 +4563,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "7",
               "owner": {}
@@ -4541,7 +4595,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "4",
               "phase": "phase.defect.new",
@@ -4607,7 +4661,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -4767,7 +4821,7 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "team": {
@@ -4830,7 +4884,7 @@
               },
               "product_areas": [
                 "01 Home Banner",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "6",
               "team": {
@@ -4893,8 +4947,8 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Security",
-                "Billing"
+                "15 Security",
+                "13 Payment"
               ],
               "story_points": "8",
               "team": {
@@ -4957,7 +5011,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "6",
               "team": {
@@ -5021,7 +5075,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "2",
               "team": {
@@ -5225,7 +5279,7 @@
               "product_areas": [
                 "02 Speakers",
                 "UI Performance",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "team": {
@@ -5296,7 +5350,7 @@
               "product_areas": [
                 "02 Speakers",
                 "01 Home Banner",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "3",
               "team": {
@@ -5439,7 +5493,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "1",
               "team": {
@@ -5643,7 +5697,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "7",
               "phase": "phase.defect.new",
@@ -5769,7 +5823,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "7",
               "phase": "phase.defect.closed",
@@ -5868,7 +5922,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "7",
               "phase": "phase.defect.closed",
@@ -5948,8 +6002,8 @@
               },
               "product_areas": [
                 "01 Home Banner",
-                "Security",
-                "Billing"
+                "15 Security",
+                "13 Payment"
               ],
               "story_points": "6",
               "team": {
@@ -6014,7 +6068,7 @@
                 "01 Home Banner",
                 "02 Speakers",
                 "03 Tablets",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "2",
               "team": {
@@ -6077,7 +6131,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "2",
               "team": {
@@ -6204,7 +6258,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "6",
               "team": {
@@ -6267,7 +6321,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "6",
               "team": {
@@ -6338,7 +6392,7 @@
               "product_areas": [
                 "05 Mice",
                 "01 Home Banner",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "3",
               "team": {
@@ -6410,7 +6464,7 @@
                 "01 Home Banner",
                 "02 Speakers",
                 "Password",
-                "Security",
+                "15 Security",
                 "05 Mice",
                 "03 Tablets"
               ],
@@ -6552,7 +6606,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "2",
               "team": {
@@ -6979,7 +7033,7 @@
                 "02 Speakers",
                 "Credit card",
                 "PayPal",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "6",
               "team": {
@@ -7044,7 +7098,7 @@
                 "01 Home Banner",
                 "Credit card",
                 "PayPal",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "team": {
@@ -7107,7 +7161,7 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "team": {
@@ -7270,7 +7324,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "2",
               "phase": "phase.story.done",
@@ -7394,7 +7448,7 @@
                 "01 Home Banner",
                 "02 Speakers",
                 "04 Laptops",
-                "Billing",
+                "13 Payment",
                 "03 Tablets"
               ],
               "story_points": "3",
@@ -7539,7 +7593,7 @@
                 "02 Speakers",
                 "03 Tablets",
                 "05 Mice",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "3",
               "team": {
@@ -7833,7 +7887,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "5",
               "phase": "phase.defect.new",
@@ -7866,7 +7920,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -7885,7 +7939,7 @@
             "01 Home Banner",
             "05 Mice",
             "04 Laptops",
-            "Mobile Search"
+            "G502 Proteus"
           ],
           "story_points": "40",
           "owner": {
@@ -7933,7 +7987,7 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "team": {
@@ -8586,7 +8640,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "1",
               "team": {
@@ -8657,7 +8711,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "2",
               "team": {
@@ -9232,7 +9286,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "1",
               "phase": "phase.defect.new",
@@ -9364,7 +9418,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "1",
               "phase": "phase.defect.closed",
@@ -9397,7 +9451,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -9418,7 +9472,7 @@
             "03 Tablets",
             "05 Mice",
             "Mobile Login",
-            "Secure login"
+            "Secure Login"
           ],
           "story_points": "20",
           "owner": {
@@ -9466,7 +9520,7 @@
               },
               "product_areas": [
                 "01 Home Banner",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "team": {
@@ -9591,7 +9645,7 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "6",
               "team": {
@@ -9655,7 +9709,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "2",
               "team": {
@@ -9860,7 +9914,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "team": {
@@ -9932,7 +9986,7 @@
                 "03 Tablets",
                 "02 Speakers",
                 "Mobile Login",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "3",
               "team": {
@@ -10159,7 +10213,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -10192,7 +10246,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "1",
               "phase": "phase.defect.new",
@@ -10258,7 +10312,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "1",
               "phase": "phase.defect.new",
@@ -10277,7 +10331,7 @@
             "01 Home Banner",
             "05 Mice",
             "ENVY",
-            "Billing"
+            "13 Payment"
           ],
           "story_points": "70",
           "owner": {
@@ -10326,7 +10380,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "8",
               "team": {
@@ -10390,7 +10444,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "User details"
+                "Create Account"
               ],
               "story_points": "8",
               "team": {
@@ -10588,7 +10642,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "3",
               "team": {
@@ -10730,7 +10784,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "3",
               "team": {
@@ -10801,7 +10855,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "3",
               "team": {
@@ -10919,7 +10973,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -10952,7 +11006,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -10970,7 +11024,7 @@
           "product_areas": [
             "01 Home Banner",
             "02 Speakers",
-            "Billing"
+            "13 Payment"
           ],
           "story_points": "20",
           "owner": {
@@ -11135,7 +11189,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "2",
               "phase": "phase.story.new",
@@ -11257,7 +11311,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "3",
               "team": {
@@ -11327,7 +11381,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "3",
               "team": {
@@ -11380,7 +11434,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "1",
               "phase": "phase.defect.closed",
@@ -11413,7 +11467,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -11435,7 +11489,7 @@
             "Mobile Login",
             "04 Laptops",
             "Roar",
-            "Secure login"
+            "Secure Login"
           ],
           "story_points": "20",
           "owner": {
@@ -11879,7 +11933,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "1",
               "phase": "phase.defect.closed",
@@ -11945,7 +11999,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -12714,7 +12768,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "3",
               "team": {
@@ -12767,7 +12821,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -12899,7 +12953,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "5",
               "phase": "phase.defect.closed",
@@ -12920,7 +12974,7 @@
             "03 Tablets",
             "05 Mice",
             "04 Laptops",
-            "User Profile"
+            "11 User Profile"
           ],
           "story_points": "10",
           "owner": {
@@ -13033,7 +13087,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "2",
               "team": {
@@ -13159,7 +13213,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "2",
               "team": {
@@ -13230,7 +13284,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "1",
               "team": {
@@ -13371,7 +13425,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "3",
               "team": {
@@ -13441,7 +13495,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "team": {
@@ -13560,7 +13614,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -13610,8 +13664,8 @@
           "phase": "phase.feature.inprogress",
           "product_areas": [
             "01 Home Banner",
-            "User Profile",
-            "Mobile Search"
+            "11 User Profile",
+            "G502 Proteus"
           ],
           "story_points": "5",
           "owner": {
@@ -13627,11 +13681,11 @@
       },
       "product_areas": [
         "03 Tablets",
-        "Security"
+        "15 Security"
       ]
     },
     {
-      "name": "Billing",
+      "name": "13 Payment",
       "subtype": "epic",
       "childEntities": [
         {
@@ -13676,7 +13730,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "2",
               "team": {
@@ -13740,7 +13794,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "2",
               "team": {
@@ -14068,7 +14122,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "7",
               "phase": "phase.defect.closed",
@@ -14101,7 +14155,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -14134,7 +14188,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -14151,9 +14205,9 @@
           "phase": "phase.feature.done",
           "product_areas": [
             "02 Speakers",
-            "Notification",
-            "Online search",
-            "Billing"
+            "08 Explore Now",
+            "Kensington 72337",
+            "13 Payment"
           ],
           "story_points": "40",
           "owner": {
@@ -14203,7 +14257,7 @@
                 "01 Home Banner",
                 "02 Speakers",
                 "03 Tablets",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "2",
               "team": {
@@ -14401,7 +14455,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "5",
               "team": {
@@ -14472,7 +14526,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "2",
               "team": {
@@ -14542,7 +14596,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "1",
               "team": {
@@ -14595,7 +14649,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -14628,7 +14682,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -14678,7 +14732,7 @@
           "phase": "phase.feature.inprogress",
           "product_areas": [
             "03 Tablets",
-            "User details",
+            "Create Account",
             "Database Performance"
           ],
           "story_points": "10",
@@ -14863,7 +14917,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "1",
               "team": {
@@ -14934,7 +14988,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "3",
               "team": {
@@ -15037,7 +15091,7 @@
           "phase": "phase.feature.done",
           "product_areas": [
             "05 Mice",
-            "Verify Phone Num",
+            "Edit Account",
             "UI Performance"
           ],
           "story_points": "20",
@@ -15046,7 +15100,7 @@
           }
         },
         {
-          "name": "Security",
+          "name": "15 Security",
           "subtype": "feature",
           "childEntities": [
             {
@@ -15087,7 +15141,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "2",
               "team": {
@@ -15221,7 +15275,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "2",
               "team": {
@@ -15394,8 +15448,8 @@
           "phase": "phase.feature.inprogress",
           "product_areas": [
             "Mobile Login",
-            "Performance",
-            "Billing"
+            "14 Performance",
+            "13 Payment"
           ],
           "story_points": "10",
           "owner": {
@@ -15416,7 +15470,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "6",
               "phase": "phase.story.new",
@@ -15432,7 +15486,7 @@
               "product_areas": [
                 "02 Speakers",
                 "03 Tablets",
-                "Security"
+                "15 Security"
               ],
               "story_points": "2",
               "phase": "phase.story.new",
@@ -15483,7 +15537,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "3",
               "team": {
@@ -15554,7 +15608,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "3",
               "team": {
@@ -15590,7 +15644,7 @@
           "phase": "phase.feature.inprogress",
           "product_areas": [
             "04 Laptops",
-            "Security",
+            "15 Security",
             "Credit card"
           ],
           "story_points": "40",
@@ -15609,7 +15663,7 @@
         "01 Home Banner",
         "02 Speakers",
         "03 Tablets",
-        "Billing"
+        "13 Payment"
       ]
     },
     {
@@ -16050,7 +16104,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -16116,7 +16170,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "3",
               "phase": "phase.defect.closed",
@@ -16292,7 +16346,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "6",
               "owner": {}
@@ -16322,7 +16376,7 @@
               },
               "product_areas": [
                 "02 Speakers",
-                "Billing",
+                "13 Payment",
                 "Pavillion"
               ],
               "story_points": "2",
@@ -16759,7 +16813,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "4",
               "team": {
@@ -16830,7 +16884,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "3",
               "team": {
@@ -16965,7 +17019,7 @@
           "phase": "phase.feature.inprogress",
           "product_areas": [
             "ENVY",
-            "Secure login"
+            "Secure Login"
           ],
           "story_points": "10",
           "owner": {
@@ -16996,7 +17050,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "2",
               "phase": "phase.story.done",
@@ -17193,7 +17247,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "3",
               "team": {
@@ -17264,7 +17318,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "3",
               "team": {
@@ -17334,7 +17388,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "1",
               "team": {
@@ -17405,7 +17459,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Security"
+                "15 Security"
               ],
               "story_points": "3",
               "team": {
@@ -17546,7 +17600,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Secure login"
+                "Secure Login"
               ],
               "story_points": "3",
               "team": {
@@ -17759,7 +17813,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "1",
               "team": {
@@ -17811,7 +17865,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Mobile Search"
+                "G502 Proteus"
               ],
               "story_points": "1",
               "phase": "phase.defect.new",
@@ -17844,7 +17898,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Online search"
+                "Kensington 72337"
               ],
               "story_points": "3",
               "phase": "phase.defect.new",
@@ -17918,7 +17972,7 @@
           "product_areas": [
             "Pavillion",
             "Roar",
-            "Billing"
+            "13 Payment"
           ],
           "story_points": "40",
           "owner": {
@@ -17939,7 +17993,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "User Profile"
+                "11 User Profile"
               ],
               "story_points": "2",
               "phase": "phase.story.done",
@@ -17955,7 +18009,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "Notification"
+                "08 Explore Now"
               ],
               "story_points": "2",
               "phase": "phase.story.done",
@@ -18146,7 +18200,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "2",
               "phase": "phase.story.done",
@@ -18288,7 +18342,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "03 Tablets",
-                "Settings"
+                "07 Special Offer"
               ],
               "story_points": "2",
               "phase": "phase.story.new",
@@ -18339,7 +18393,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "User details"
+                "Create Account"
               ],
               "story_points": "2",
               "team": {
@@ -18410,7 +18464,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Verify Phone Num"
+                "Edit Account"
               ],
               "story_points": "2",
               "team": {
@@ -18480,7 +18534,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Performance"
+                "14 Performance"
               ],
               "story_points": "3",
               "team": {
@@ -19061,7 +19115,7 @@
               "product_areas": [
                 "01 Home Banner",
                 "02 Speakers",
-                "Billing"
+                "13 Payment"
               ],
               "story_points": "1",
               "phase": "phase.defect.closed",
@@ -19110,7 +19164,7 @@
           },
           "phase": "phase.feature.new",
           "product_areas": [
-            "Settings",
+            "07 Special Offer",
             "Roar Mini",
             "04 Laptops"
           ],
@@ -19147,8 +19201,8 @@
       ],
       "product_areas": [
         "01 Home Banner",
-        "User details",
-        "Security"
+        "Create Account",
+        "15 Security"
       ],
       "covered_content": [
         "As a user, I can manage payee from Advantage Online  Store",
@@ -19190,7 +19244,7 @@
       "product_areas": [
         "02 Speakers",
         "05 Mice",
-        "Performance"
+        "14 Performance"
       ],
       "covered_content": [
         "As a user, I can search my account by entering the first name",
@@ -19212,7 +19266,7 @@
       "product_areas": [
         "02 Speakers",
         "05 Mice",
-        "Performance"
+        "14 Performance"
       ],
       "covered_content": [
         "As a user, I can search my account by entering the last name",
@@ -19248,12 +19302,12 @@
       "designer": "alex_alm",
       "owner": "alex_alm",
       "test_type": [
-        "Security"
+        "15 Security"
       ],
       "product_areas": [
         "01 Home Banner",
-        "Performance",
-        "Security"
+        "14 Performance",
+        "15 Security"
       ],
       "covered_content": [
         "As a user, I can add payee from Advantage Online  Store",
@@ -19269,12 +19323,12 @@
       "designer": "mary_demo",
       "owner": "mary_demo",
       "test_type": [
-        "Security"
+        "15 Security"
       ],
       "product_areas": [
         "01 Home Banner",
         "05 Mice",
-        "Security"
+        "15 Security"
       ],
       "covered_content": [
         "As a user, I can transfer money from Advantage Mobile  Store",
@@ -19295,9 +19349,9 @@
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Security",
-        "Settings",
-        "User Profile"
+        "15 Security",
+        "07 Special Offer",
+        "11 User Profile"
       ],
       "covered_content": [
         "As a user, I can create a new account in Horizon.com",
@@ -19315,13 +19369,13 @@
       "designer": "robert_demo",
       "owner": "robert_demo",
       "test_type": [
-        "Performance"
+        "14 Performance"
       ],
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
         "05 Mice",
-        "Performance"
+        "14 Performance"
       ],
       "covered_content": [
         "As a user, I can search my account by entering the first name",
@@ -19349,12 +19403,12 @@
       "designer": "robert_demo",
       "owner": "robert_demo",
       "test_type": [
-        "Security"
+        "15 Security"
       ],
       "product_areas": [
         "01 Home Banner",
-        "Settings",
-        "Security"
+        "07 Special Offer",
+        "15 Security"
       ],
       "covered_content": [
         "As a user, I can create a new account in Horizon.com",
@@ -19452,7 +19506,7 @@
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Billing"
+        "13 Payment"
       ],
       "covered_content": [
         "As a user, I can select to download the purchased ETF directly to my ipad",
@@ -19571,7 +19625,7 @@
       "designer": "alex_alm",
       "owner": "alex_alm",
       "test_type": [
-        "Performance"
+        "14 Performance"
       ],
       "product_areas": [
         "Mobile Login",
@@ -19596,7 +19650,7 @@
         "04 Laptops",
         "01 Home Banner",
         "02 Speakers",
-        "Settings"
+        "07 Special Offer"
       ],
       "covered_content": [
         "As a user, I can save live chat history",
@@ -19612,7 +19666,7 @@
       "designer": "alice_demo",
       "owner": "alice_demo",
       "test_type": [
-        "Performance"
+        "14 Performance"
       ],
       "product_areas": [
         "01 Home Banner",
@@ -19631,7 +19685,7 @@
       "designer": "alice_demo",
       "owner": "alice_demo",
       "test_type": [
-        "Performance"
+        "14 Performance"
       ],
       "product_areas": [
         "01 Home Banner",
@@ -19675,8 +19729,8 @@
         "End to End"
       ],
       "product_areas": [
-        "Notification",
-        "Billing",
+        "08 Explore Now",
+        "13 Payment",
         "01 Home Banner",
         "02 Speakers"
       ],
@@ -19694,13 +19748,13 @@
       "designer": "kelly_demo",
       "owner": "kelly_demo",
       "test_type": [
-        "Security"
+        "15 Security"
       ],
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Settings",
-        "Security"
+        "07 Special Offer",
+        "15 Security"
       ],
       "covered_content": [
         "As a user, I can define whether or not to be notified about Dow Jones companies",
@@ -19740,7 +19794,7 @@
       ],
       "product_areas": [
         "01 Home Banner",
-        "Settings"
+        "07 Special Offer"
       ],
       "covered_content": [
         "As a user, I can download and play on IOS device"
@@ -19775,13 +19829,13 @@
       "designer": "alex_alm",
       "owner": "alex_alm",
       "test_type": [
-        "Security"
+        "15 Security"
       ],
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Settings",
-        "Security"
+        "07 Special Offer",
+        "15 Security"
       ],
       "covered_content": [
         "As a user, I can request to block my account when account hijacking is suspected"
@@ -19801,7 +19855,7 @@
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Security"
+        "15 Security"
       ],
       "covered_content": [
         "All communication must be SSL 256 -bit encrypted "
@@ -19821,8 +19875,8 @@
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Settings",
-        "Billing"
+        "07 Special Offer",
+        "13 Payment"
       ],
       "covered_content": [
         "As a user, I can check rate of dollar",
@@ -19842,7 +19896,7 @@
       ],
       "product_areas": [
         "01 Home Banner",
-        "Billing"
+        "13 Payment"
       ],
       "covered_content": [
         "As a user, I can make payments from Advantage Online  Store"
@@ -19861,7 +19915,7 @@
       ],
       "product_areas": [
         "02 Speakers",
-        "Billing"
+        "13 Payment"
       ],
       "covered_content": [
         "As a user, I can make payments from Advantage Mobile  Store"
@@ -19901,7 +19955,7 @@
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Settings"
+        "07 Special Offer"
       ],
       "covered_content": [
         "As a user, I can limit the maximum amount allocated for a single purchase"
@@ -19920,7 +19974,7 @@
       ],
       "product_areas": [
         "02 Speakers",
-        "Settings"
+        "07 Special Offer"
       ],
       "covered_content": [
         "As a user, I can print my invoice after checking out "
@@ -19940,7 +19994,7 @@
       "product_areas": [
         "01 Home Banner",
         "02 Speakers",
-        "Billing"
+        "13 Payment"
       ],
       "covered_content": [
         "As a user, I can cancel a money transfer action before the required date",
