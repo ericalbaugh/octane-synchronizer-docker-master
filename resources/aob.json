@@ -84,8 +84,8 @@
       "description": "Release 1 of Advantage Online Shopping"
     },
     {
-      "name": "AOS 1.1.3",
-      "description": "Release 1.1.3 of Advantage Online Shopping"
+      "name": "AOS 1.5",
+      "description": "Release 1.5 of Advantage Online Shopping"
     }
   ],
   "product_area": [
@@ -370,8 +370,8 @@
           "description": "Release 1 of Advantage Online Shopping"
         },
         {
-          "name": "AOS 1.1.3",
-          "description": "Release 1.1.3 of Advantage Online Shopping"
+          "name": "AOS 1.5",
+          "description": "Release 1.5 of Advantage Online Shopping"
         }
       ],
       "assign_to_new_releases": true,
