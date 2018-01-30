@@ -220,6 +220,27 @@
       ]
     },
     {
+      "name": "06 Headphones",
+      "description": "06 Headphones",
+      "childEntities": [
+        {
+          "name": "Beats Studio",
+          "description": "G502 Proteus",
+          "childEntities": []
+        },
+        {
+          "name": "HP H2310",
+          "description": "HP H2310",
+          "childEntities": []
+        },
+        {
+          "name": "Logitech H390",
+          "description": "Logitech H390",
+          "childEntities": []
+        }
+      ]
+    },
+    {
       "name": "07 Special Offer",
       "description": "07 Special Offer",
       "childEntities": []
@@ -461,11 +482,11 @@
       "subtype": "epic",
       "childEntities": [
         {
-          "name": "Advantage Online  Store  Database",
+          "name": "Checkout",
           "subtype": "feature",
           "childEntities": [
             {
-              "name": "As a site administrator, I should be able to enter a new account in the Advantage Online  Store database",
+              "name": "As a user, I can click the 'Checkout' button from anywhere on the site",
               "subtype": "story",
               "taskEntities": [
                 {
@@ -500,8 +521,7 @@
                 "name": "robert_demo"
               },
               "product_areas": [
-                "02 Speakers",
-                "07 Special Offer"
+                "12 Shopping Cart"
               ],
               "story_points": "4",
               "team": {
@@ -717,451 +737,6 @@
               "phase": "phase.story.inprogress",
               "owner": {
                 "name": "peter_demo"
-              }
-            },
-            {
-              "name": "As a user, I can define whether or not to be notified about Nasdaq companies from Advantage Mobile Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "cecil_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "15 Security"
-              ],
-              "story_points": "6",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "tom_demo"
-              }
-            },
-            {
-              "name": "As a user, I can define whether or not to be notified about S&P500 companies from Advantage Mobile Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "robert_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Password"
-              ],
-              "story_points": "4",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "alex_demo"
-              }
-            },
-            {
-              "name": "As a user, I can view the history of Dow Jones ",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "michael_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "Secure Login"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.intesting",
-              "owner": {
-                "name": "kelly_demo"
-              }
-            },
-            {
-              "name": "As a user, I can view the history of Nasdaq",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "peter_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alice_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "Roar"
-              ],
-              "story_points": "6",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "peter_demo"
-              }
-            },
-            {
-              "name": "As a user, I can view the history of S&P500",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "mary_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "ElitePad"
-              ],
-              "story_points": "6",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "cecil_demo"
-              }
-            },
-            {
-              "name": "As a user, I can see future actions",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Full screen: when restoring screen, buttons become disabled",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "Hudson Git plugin does not support CGit URI format",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                },
-                {
-                  "name": "De Facto Denial of Service",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "cecil_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "Chromebook"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "cecil_demo"
-              }
-            },
-            {
-              "name": "As a user, I can save live chat history",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Remove Items from API only removes administrators",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                },
-                {
-                  "name": "When selecting planning on multiple items - not all attributes are presented",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": " fixed and closed legend are displayed with the same color",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "robert_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "ENVY"
-              ],
-              "story_points": "8",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "robert_demo"
               }
             },
             {
@@ -2525,39 +2100,6 @@
               "owner": {}
             },
             {
-              "name": "Problem with persistence - last filtered items are not displayed when returning to the bill pay page",
-              "subtype": "defect",
-              "description": "Problem with persistence - last filtered items are not displayed when returning to the bill pay page",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "05 Mice"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.closed",
-              "owner": {}
-            },
-            {
               "name": "Error \"9234566122\" when adding song  \"Sandra  - Innocent Love\" to shopping cart",
               "subtype": "defect",
               "description": "Error \"9234566122\" when adding song  \"Sandra  - Innocent Love\" to shopping cart",
@@ -2759,14 +2301,16 @@
           "job_size": "3",
           "rroe": "3",
           "time_criticality": "8",
-          "business_value": "3",
+          "business_value": "21",
           "author": {
             "name": "michael_demo"
           },
           "phase": "phase.feature.inprogress",
           "product_areas": [
-            "02 Speakers",
-            "Database Performance"
+            "11 User Profile",
+            "12 Shopping Cart",
+            "13 Payment",
+            "15 Security"
           ],
           "story_points": "30",
           "owner": {
@@ -2774,7 +2318,7 @@
           }
         },
         {
-          "name": "Account Search",
+          "name": "Order Cancellation",
           "subtype": "feature",
           "childEntities": [
             {
@@ -2965,91 +2509,6 @@
               "phase": "phase.story.intesting",
               "owner": {
                 "name": "michael_demo"
-              }
-            },
-            {
-              "name": "As a user, I can purchase a stocks in S&P500 from Advantage Online Store",
-              "subtype": "story",
-              "taskEntities": [],
-              "author": {
-                "name": "alice_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "Create Account"
-              ],
-              "story_points": "6",
-              "phase": "phase.story.done",
-              "owner": {}
-            },
-            {
-              "name": "Search by name returns Error when illegal characters are used",
-              "subtype": "defect",
-              "description": "Search by name returns Error when illegal characters are used",
-              "severity": "1-Critical",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "05 Mice",
-                "02 Speakers"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "cecil_demo"
               }
             },
             {
@@ -3482,15 +2941,16 @@
           "job_size": "2",
           "rroe": "5",
           "time_criticality": "3",
-          "business_value": "21",
+          "business_value": "3",
           "author": {
             "name": "alice_demo"
           },
           "phase": "phase.feature.done",
           "product_areas": [
-            "01 Home Banner",
-            "02 Speakers",
-            "05 Mice"
+            "11 User Profile",
+            "12 Shopping Cart",
+            "13 Payment",
+            "15 Security"
           ],
           "story_points": "20",
           "owner": {
@@ -3498,7 +2958,7 @@
           }
         },
         {
-          "name": "Shares",
+          "name": "Shopping Cart",
           "subtype": "feature",
           "childEntities": [
             {
@@ -3692,68 +3152,6 @@
               }
             },
             {
-              "name": "As a user, I can purchase a stocks in dow jones from Advantage Mobile Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "mary_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "Password"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "cecil_demo"
-              }
-            },
-            {
               "name": "As a user, I can define whether or not to be notified about TSX companies from Advantage Mobile Store",
               "subtype": "story",
               "taskEntities": [
@@ -3815,133 +3213,6 @@
               "phase": "phase.story.inprogress",
               "owner": {
                 "name": "paul_demo"
-              }
-            },
-            {
-              "name": "As a user, I can select to download the purchased stocks directly to my android device",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "peter_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alex_demo"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "03 Tablets",
-                "UI Performance"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "james_demo"
-              }
-            },
-            {
-              "name": "As a user, I can select to download the purchased ETF directly to my iPad",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 12,
-                  "remaining_hours": 12,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "kelly_demo"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "03 Tablets",
-                "13 Payment"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "alex_demo"
               }
             },
             {
@@ -4760,8 +4031,10 @@
           },
           "phase": "phase.feature.inprogress",
           "product_areas": [
-            "05 Mice",
-            "Mobile Login"
+            "11 User Profile",
+            "12 Shopping Cart",
+            "13 Payment",
+            "15 Security"
           ],
           "story_points": "10",
           "owner": {
@@ -4769,7 +4042,7 @@
           }
         },
         {
-          "name": "Advantage Online  Store  Purchase",
+          "name": "User Profile",
           "subtype": "feature",
           "childEntities": [
             {
@@ -5024,70 +4297,6 @@
               }
             },
             {
-              "name": "As a user, I can purchase a stocks in Nasdaq",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Implement file extension",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "Add SSL support",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "Minimal jetty runtime",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "paul_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Create Account"
-              ],
-              "story_points": "6",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.intesting",
-              "owner": {
-                "name": "paul_demo"
-              }
-            },
-            {
               "name": "As a user, I can search in live chat",
               "subtype": "story",
               "taskEntities": [
@@ -5213,217 +4422,6 @@
               "phase": "phase.story.intesting",
               "owner": {
                 "name": "james_demo"
-              }
-            },
-            {
-              "name": "When clicking the \"Home\" button, a new tab is opened",
-              "subtype": "defect",
-              "description": "When clicking the \"Home\" button, a new tab is opened",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "03 Tablets",
-                "ElitePad"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "alex_demo"
-              }
-            },
-            {
-              "name": "Euro-Dollar converter produces NULL values when amount > 1000",
-              "subtype": "defect",
-              "description": "Euro-Dollar converter produces NULL values when amount > 1000",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "UI Performance",
-                "14 Performance"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "paul_demo"
-              }
-            },
-            {
-              "name": "Invoices sent to yahoo mail addresses are marked as spam",
-              "subtype": "defect",
-              "description": "Invoices sent to yahoo mail addresses are marked as spam",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "01 Home Banner",
-                "08 Explore Now"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.fixed",
-              "owner": {
-                "name": "tom_demo"
               }
             },
             {
@@ -5979,16 +4977,18 @@
               "owner": {}
             }
           ],
-          "business_value": "21",
+          "job_size": "3",
+          "rroe": "5",
+          "time_criticality": "8",
+          "business_value": "5",
           "author": {
             "name": "james_demo"
           },
           "phase": "phase.feature.done",
           "product_areas": [
-            "02 Speakers",
-            "PayPal",
-            "Credit card",
-            "04 Laptops"
+            "11 User Profile",
+            "13 Payment",
+            "15 Security"
           ],
           "story_points": "40",
           "owner": {
@@ -6003,12 +5003,25 @@
         "name": "alex_demo"
       },
       "product_areas": [
+        "01 Home Page",
         "02 Speakers",
-        "03 Tablets"
+        "03 Tablets",
+        "04 Laptops",
+        "05 Mice",
+        "06 Headphones",
+        "07 Special Offer",
+        "08 Explore Now",
+        "09 Popular Items",
+        "10 Contact Us",
+        "11 User Profile",
+        "12 Shopping Cart",
+        "13 Payment",
+        "14 Performance",
+        "15 Security"
       ]
     },
     {
-      "name": "Advantage Mobile Store ",
+      "name": "Advantage Shopping Mobile",
       "subtype": "epic",
       "childEntities": [
         {
@@ -6542,76 +5555,6 @@
               }
             },
             {
-              "name": "When clicking the \"Home\" button, a new tab is opened",
-              "subtype": "defect",
-              "description": "When clicking the \"Home\" button, a new tab is opened",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 12,
-                  "remaining_hours": 12,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "ElitePad"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.fixed",
-              "owner": {
-                "name": "alex_demo"
-              }
-            },
-            {
               "name": "Unable to delete a credit card on file",
               "subtype": "defect",
               "description": "Unable to delete a credit card on file",
@@ -6952,72 +5895,6 @@
                 "UI Performance"
               ],
               "story_points": "1",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "When clicking the \"Home\" button, a new tab is opened",
-              "subtype": "defect",
-              "description": "When clicking the \"Home\" button, a new tab is opened",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.closed",
-              "owner": {}
-            },
-            {
-              "name": "Bulk purchase not working",
-              "subtype": "defect",
-              "description": "Bulk purchase not working",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Chromebook"
-              ],
-              "story_points": "3",
               "phase": "phase.defect.new",
               "owner": {}
             }
@@ -7968,69 +6845,6 @@
           "subtype": "feature",
           "childEntities": [
             {
-              "name": "As a user, I can purchase a stocks in dow jones from Advantage Online Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "tom_demo"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "13 Payment"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.intesting",
-              "owner": {
-                "name": "mary_demo"
-              }
-            },
-            {
               "name": "As a user, I can select to perform the live chat in Chrome ",
               "subtype": "story",
               "taskEntities": [
@@ -8160,324 +6974,6 @@
               }
             },
             {
-              "name": "As a user, I can select to download the purchased stocks directly to my iOS device",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "UI get stuck for few seconds post setting application",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "peter_demo"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "03 Tablets",
-                "Credit card"
-              ],
-              "story_points": "4",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.intesting",
-              "owner": {
-                "name": "paul_demo"
-              }
-            },
-            {
-              "name": "As a user, I can select to download the purchased ETF directly to my iPad pro",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Exception while navigating back to the teams page after adding new team member.",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                },
-                {
-                  "name": "User cannot scroll down after changing columns visibility.",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "Main menu (filter) has different style of tooltip",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "cecil_demo"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "03 Tablets",
-                "PayPal"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "tom_demo"
-              }
-            },
-            {
-              "name": "As a user, I can select to download the ETF contract directly to my iOS device",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Task balloon icons  stay open when moving task to completed",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "Grid filter shows all features",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "From Customer Community - on Filter header operator is not working",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alex_demo"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "03 Tablets",
-                "05 Mice"
-              ],
-              "story_points": "6",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "alex_demo"
-              }
-            },
-            {
-              "name": "As a user, I can select to download the rental movie directly to my iPad",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "the \"Today\" label is hidden by the date label",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                },
-                {
-                  "name": "Tooltip display cut while all statuses display.",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                },
-                {
-                  "name": "typo in validation succeeded message",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "kelly_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "Mobile Login"
-              ],
-              "story_points": "4",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "kelly_demo"
-              }
-            },
-            {
-              "name": "As a user, I can select to download the ETF contract directly to my android device",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Update template files",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "Complete design",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "Replicate configuration",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alex_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "alex_demo"
-              }
-            },
-            {
               "name": "The system will display the estimated download time ",
               "subtype": "story",
               "taskEntities": [
@@ -8539,77 +7035,6 @@
               "phase": "phase.story.inprogress",
               "owner": {
                 "name": "paul_demo"
-              }
-            },
-            {
-              "name": "Cannot order more then 2 checkbooks in one time, should be 4 checkbooks.",
-              "subtype": "defect",
-              "description": "Cannot order more then 2 checkbooks in one time, should be 4 checkbooks.",
-              "severity": "2-High",
-              "priority": "3-Medium",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 12,
-                  "remaining_hours": 12,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "peter_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "G502 Proteus"
-              ],
-              "story_points": "1",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "james_demo"
               }
             },
             {
@@ -8966,312 +7391,6 @@
               }
             },
             {
-              "name": "When clicking the \"Home\" button, a new tab is opened",
-              "subtype": "defect",
-              "description": "When clicking the \"Home\" button, a new tab is opened",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "alex_demo"
-              }
-            },
-            {
-              "name": "Euro-Dollar converter produces NULL values when amount > 1000",
-              "subtype": "defect",
-              "description": "Euro-Dollar converter produces NULL values when amount > 1000",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "05 Mice"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "paul_demo"
-              }
-            },
-            {
-              "name": "Missing a button to clear out filtered results in \"Search for a account\"",
-              "subtype": "defect",
-              "description": "Missing a button to clear out filtered results in \"Search for a account\"",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Chromebook"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.closed",
-              "owner": {}
-            },
-            {
-              "name": "Cannot delete payee from Advantage Mobile Store",
-              "subtype": "defect",
-              "description": "Cannot delete payee from Advantage Mobile Store",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "ENVY"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.closed",
-              "owner": {}
-            },
-            {
-              "name": "Activation E-mail sent to Yahoo e-mail address marked as spam",
-              "subtype": "defect",
-              "description": "Activation E-mail sent to Yahoo e-mail address marked as spam",
-              "severity": "4-Low",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Pavillion"
-              ],
-              "story_points": "1",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "Error \"9234566122\" when adding payee",
-              "subtype": "defect",
-              "description": "Error \"9234566122\" when adding payee",
-              "severity": "4-Low",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Secure Login"
-              ],
-              "story_points": "1",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "Cannot change password in Chrome",
-              "subtype": "defect",
-              "description": "Cannot change password in Chrome",
-              "severity": "2-High",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "ElitePad"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.closed",
-              "owner": {}
-            },
-            {
               "name": "PayPal verification Error",
               "subtype": "defect",
               "description": "PayPal verification Error",
@@ -9397,69 +7516,6 @@
           "subtype": "feature",
           "childEntities": [
             {
-              "name": "As a user, I can purchase a stocks in S&P500 from Advantage Mobile Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "peter_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "13 Payment"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "paul_demo"
-              }
-            },
-            {
               "name": "As a user, I can transfer money from Advantage Mobile  Store",
               "subtype": "story",
               "taskEntities": [
@@ -9517,132 +7573,6 @@
                 "estimated_velocity": 60
               },
               "phase": "phase.story.intesting",
-              "owner": {
-                "name": "alex_demo"
-              }
-            },
-            {
-              "name": "As a user, I can purchase a stocks in S&P500 from Advantage Online Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "michael_demo"
-              },
-              "product_areas": [
-                "02 Speakers",
-                "13 Payment"
-              ],
-              "story_points": "6",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "kelly_demo"
-              }
-            },
-            {
-              "name": "As a user, I can purchase stocks in London Exchange ",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Create a complete UI layout",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "Cover legal aspects",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "Link tasks and change sets",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alex_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "14 Performance"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
               "owner": {
                 "name": "alex_demo"
               }
@@ -10952,12 +8882,25 @@
         "name": "kelly_demo"
       },
       "product_areas": [
-        "01 Home Banner",
-        "03 Tablets"
+        "01 Home Page",
+        "02 Speakers",
+        "03 Tablets",
+        "04 Laptops",
+        "05 Mice",
+        "06 Headphones",
+        "07 Special Offer",
+        "08 Explore Now",
+        "09 Popular Items",
+        "10 Contact Us",
+        "11 User Profile",
+        "12 Shopping Cart",
+        "13 Payment",
+        "14 Performance",
+        "15 Security"
       ]
     },
     {
-      "name": "Self Provisioning",
+      "name": "AWS Migration",
       "subtype": "epic",
       "childEntities": [
         {
@@ -12138,71 +10081,6 @@
               }
             },
             {
-              "name": "As a user, I can define whether or not to be notified about Dow Jones companies",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 12,
-                  "remaining_hours": 12,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "peter_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets",
-                "05 Mice"
-              ],
-              "story_points": "8",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "paul_demo"
-              }
-            },
-            {
               "name": "As a user, I can select whether the credit card info will be stored in my account",
               "subtype": "story",
               "taskEntities": [
@@ -12772,105 +10650,6 @@
               "story_points": "3",
               "phase": "phase.defect.new",
               "owner": {}
-            },
-            {
-              "name": "When clicking the \"Home\" button, a new tab is opened",
-              "subtype": "defect",
-              "description": "When clicking the \"Home\" button, a new tab is opened",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "ElitePad"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "Euro-Dollar converter produces NULL values when amount > 1000",
-              "subtype": "defect",
-              "description": "Euro-Dollar converter produces NULL values when amount > 1000",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Roar Mini"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "Back button is disabled when no results are found ",
-              "subtype": "defect",
-              "description": "Back button is disabled when no results are found ",
-              "severity": "2-High",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "08 Explore Now"
-              ],
-              "story_points": "5",
-              "phase": "phase.defect.closed",
-              "owner": {}
             }
           ],
           "job_size": "2",
@@ -12898,70 +10677,6 @@
           "name": "History",
           "subtype": "feature",
           "childEntities": [
-            {
-              "name": "As a user, I can define whether or not to be notified about Nasdaq companies",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                },
-                {
-                  "name": "implement",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "peter_demo"
-                  }
-                },
-                {
-                  "name": "test",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alex_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.intesting",
-              "owner": {
-                "name": "michael_demo"
-              }
-            },
             {
               "name": "As a user, I can re-download any of my purchases by selecting them in the  My Purchases  web page in Canada",
               "subtype": "story",
@@ -13593,7 +11308,8 @@
         "name": "peter_demo"
       },
       "product_areas": [
-        "03 Tablets",
+        "11 User Profile",
+        "13 Payment",
         "15 Security"
       ]
     },
@@ -15404,76 +13120,6 @@
               "owner": {
                 "name": "james_demo"
               }
-            },
-            {
-              "name": "When clicking the \"Home\" button, a new tab is opened",
-              "subtype": "defect",
-              "description": "When clicking the \"Home\" button, a new tab is opened",
-              "severity": "2-High",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 12,
-                  "remaining_hours": 12,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "11 User Profile"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "alex_demo"
-              }
             }
           ],
           "job_size": "2",
@@ -15502,14 +13148,13 @@
         "name": "cecil_demo"
       },
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "03 Tablets",
-        "13 Payment"
+        "11 User Profile",
+        "13 Payment",
+        "15 Security"
       ]
     },
     {
-      "name": "Capital Market",
+      "name": "Security",
       "subtype": "epic",
       "childEntities": [
         {
@@ -15578,69 +13223,6 @@
               "phase": "phase.story.inprogress",
               "owner": {
                 "name": "tom_demo"
-              }
-            },
-            {
-              "name": "As a user, I can define whether or not to be notified about S&P500 companies",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "Update client model",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "Need a progress indicator",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "Optimize usability",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alex_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets"
-              ],
-              "story_points": "4",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.story.inprogress",
-              "owner": {
-                "name": "alex_demo"
               }
             },
             {
@@ -16167,31 +13749,6 @@
               "owner": {
                 "name": "cecil_demo"
               }
-            },
-            {
-              "name": "As a user, I can define whether or not to be notified about Nasdaq companies from Advantage Mobile Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "robert_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "G502 Proteus"
-              ],
-              "story_points": "6",
-              "owner": {}
             },
             {
               "name": "As a user, I can pay with my PayPal account",
@@ -16872,84 +14429,6 @@
           "name": "CheckCredit",
           "subtype": "feature",
           "childEntities": [
-            {
-              "name": "As a user, I can define whether or not to be notified about S&P500 companies from Advantage Mobile Store",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "michael_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Kensington 72337"
-              ],
-              "story_points": "2",
-              "phase": "phase.story.done",
-              "owner": {}
-            },
-            {
-              "name": "As a user, I can view the history of Dow Jones ",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "alice_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Database Performance"
-              ],
-              "story_points": "2",
-              "phase": "phase.story.new",
-              "owner": {}
-            },
-            {
-              "name": "As a user, I can view the history of Nasdaq",
-              "subtype": "story",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "mary_demo"
-                  }
-                }
-              ],
-              "author": {
-                "name": "mary_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "UI Performance"
-              ],
-              "story_points": "2",
-              "phase": "phase.story.done",
-              "owner": {}
-            },
             {
               "name": "As a user, I can perform live chat from Advantage Mobile Store ",
               "subtype": "story",
@@ -18104,22 +15583,6 @@
               "owner": {}
             },
             {
-              "name": "As a user, I can purchase a stocks in dow jones from Advantage Online Store",
-              "subtype": "story",
-              "taskEntities": [],
-              "author": {
-                "name": "alex_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "03 Tablets"
-              ],
-              "story_points": "2",
-              "phase": "phase.story.new",
-              "owner": {}
-            },
-            {
               "name": "As a user, I can select to perform the live chat in Firefox",
               "subtype": "story",
               "taskEntities": [],
@@ -18134,93 +15597,6 @@
               "story_points": "2",
               "phase": "phase.story.new",
               "owner": {}
-            },
-            {
-              "name": "As a user, I can purchase a stocks in S&P500 from Advantage Mobile Store",
-              "subtype": "story",
-              "taskEntities": [],
-              "author": {
-                "name": "cecil_demo"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "03 Tablets",
-                "07 Special Offer"
-              ],
-              "story_points": "2",
-              "phase": "phase.story.new",
-              "owner": {}
-            },
-            {
-              "name": "Cannot order more then 2 checkbooks in one time, should be 4 checkbooks.",
-              "subtype": "defect",
-              "description": "Cannot order more then 2 checkbooks in one time, should be 4 checkbooks.",
-              "severity": "1-Critical",
-              "priority": "3-Medium",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "peter_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Create Account"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "james_demo"
-              }
             },
             {
               "name": "Create account is failed when using special char in the name field",
@@ -18913,10 +16289,11 @@
         "name": "robert_demo"
       },
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "03 Tablets",
-        "Credit card"
+        "11 User Profile",
+        "12 Shopping Cart",
+        "13 Payment",
+        "14 Performance",
+        "15 Security"
       ]
     }
   ],
@@ -18940,26 +16317,6 @@
         "As a user, I can manage payee from Advantage Online  Store",
         "As a user, I can manage payee from Advantage Mobile  Store",
         "Cannot change password in Chrome"
-      ],
-      "estimated_duration": "23"
-    },
-    {
-      "name": "Verify Purchase stocks from mobile",
-      "description": "<p>Purchase stocks from mobile</p>",
-      "subtype": "test_manual",
-      "author": "alice_demo",
-      "designer": "alice_demo",
-      "owner": "alice_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "03 Tablets",
-        "Mobile Login"
-      ],
-      "covered_content": [
-        "As a user, I can purchase a stocks in dow jones from Advantage Online Store",
-        "As a user, I can purchase a stocks in S&P500 from Advantage Online Store"
       ],
       "estimated_duration": "23"
     },
@@ -19176,7 +16533,6 @@
       ],
       "covered_content": [
         "As a user, I can select to perform the live chat in Chrome ",
-        "As a user, I can define whether or not to be notified about Nasdaq companies",
         "As a user, I can select to perform the live chat in IE"
       ],
       "estimated_duration": "22"
@@ -19241,8 +16597,6 @@
         "13 Payment"
       ],
       "covered_content": [
-        "As a user, I can select to download the purchased ETF directly to my iPad",
-        "As a user, I can select to download the purchased stocks directly to my android device",
         "As a user, when using a credit card on file, I must supply my CCV details",
         "As a user, I can delete a credit card on file",
         "As a user, I can have multiple credit cards on file",
@@ -19467,7 +16821,6 @@
         "02 Speakers"
       ],
       "covered_content": [
-        "As a user, I can define whether or not to be notified about Dow Jones companies",
         "Help page is not open properly via F1"
       ],
       "estimated_duration": "40"
@@ -19489,7 +16842,6 @@
         "15 Security"
       ],
       "covered_content": [
-        "As a user, I can define whether or not to be notified about Dow Jones companies",
         "Session timeout is 60 min instead of 20 min"
       ],
       "estimated_duration": "23"
@@ -19548,8 +16900,7 @@
         "02 Speakers"
       ],
       "covered_content": [
-        "Cannot delete payee from Advantage Mobile Store",
-        "As a user, I can purchase a stocks in S&P500 from Advantage Online Store"
+        "Cannot delete payee from Advantage Mobile Store"
       ],
       "estimated_duration": "20"
     },
@@ -19790,8 +17141,7 @@
         "Database Performance"
       ],
       "covered_content": [
-        "As a user, I can select to download the purchased ETF directly to my iPad",
-        "As a user, I can select to download the purchased stocks directly to my android device"
+        "As a user, I can select to download the purchased ETF directly to my iPad"
       ],
       "estimated_duration": "40"
     }
