@@ -491,17 +491,17 @@
               "taskEntities": [
                 {
                   "name": "analyze",
-                  "estimated_hours": 3,
+                  "estimated_hours": 4,
                   "remaining_hours": 3,
-                  "invested_hours": 0,
+                  "invested_hours": 1,
                   "owner": {
                     "name": "alex_demo"
                   }
                 },
                 {
                   "name": "implement",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
+                  "estimated_hours": 12,
+                  "remaining_hours": 12,
                   "invested_hours": 0,
                   "owner": {
                     "name": "cecil_demo"
@@ -509,8 +509,8 @@
                 },
                 {
                   "name": "test",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
+                  "estimated_hours": 5,
+                  "remaining_hours": 5,
                   "invested_hours": 0,
                   "owner": {
                     "name": "alice_demo"
@@ -523,7 +523,7 @@
               "product_areas": [
                 "12 Shopping Cart"
               ],
-              "story_points": "4",
+              "story_points": "5",
               "team": {
                 "name": "AOS UI",
                 "description": "Team of UI ",
