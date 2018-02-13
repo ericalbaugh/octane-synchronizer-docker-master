@@ -7755,599 +7755,6 @@
               "story_points": "4",
               "phase": "phase.story.new",
               "owner": {}
-            },
-            {
-              "name": "Slow performance when scrolling on a large list of items",
-              "subtype": "defect",
-              "description": "Slow performance when scrolling on a large list of items",
-              "severity": "3-Medium",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 3,
-                  "remaining_hours": 3,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "peter_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "james_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "ENVY"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "peter_demo"
-              }
-            },
-            {
-              "name": "money transfer history show only the last week info",
-              "subtype": "defect",
-              "description": "money transfer history show only the last week info",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 5,
-                  "remaining_hours": 5,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Pavillion"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.fixed",
-              "owner": {
-                "name": "cecil_demo"
-              }
-            },
-            {
-              "name": "Downloaded to an android device take long time to open (over 3 seconds to launch)",
-              "subtype": "defect",
-              "description": "Downloaded to an android device take long time to open (over 3 seconds to launch)",
-              "severity": "1-Critical",
-              "priority": "3-Medium",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "05 Mice"
-              ],
-              "story_points": "2",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "robert_demo"
-              }
-            },
-            {
-              "name": "Facebook plug in fails on Safari",
-              "subtype": "defect",
-              "description": "Facebook plug in fails on Safari",
-              "severity": "3-Medium",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 7,
-                  "remaining_hours": 7,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "ElitePad"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.fixed",
-              "owner": {
-                "name": "cecil_demo"
-              }
-            },
-            {
-              "name": "Back button is disabled when no results are found ",
-              "subtype": "defect",
-              "description": "Back button is disabled when no results are found ",
-              "severity": "2-High",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "robert_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "kelly_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Roar Mini"
-              ],
-              "story_points": "5",
-              "team": {
-                "name": "AOS Infra",
-                "description": "Team of Infra",
-                "members": [
-                  "kelly_demo",
-                  "mary_demo",
-                  "paul_demo",
-                  "robert_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "robert_demo"
-              }
-            },
-            {
-              "name": "Unable to delete a credit card on file",
-              "subtype": "defect",
-              "description": "Unable to delete a credit card on file",
-              "severity": "1-Critical",
-              "priority": "3-Medium",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 10,
-                  "remaining_hours": 10,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "michael_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "peter_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "G502 Proteus"
-              ],
-              "story_points": "4",
-              "team": {
-                "name": "AOS API",
-                "description": "Team of API",
-                "members": [
-                  "peter_demo",
-                  "michael_demo",
-                  "james_demo",
-                  "tom_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "michael_demo"
-              }
-            },
-            {
-              "name": "MasterCard transactions are failing in cards starting with  digits 4580",
-              "subtype": "defect",
-              "description": "MasterCard transactions are failing in cards starting with  digits 4580",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "analyze",
-                  "estimated_hours": 4,
-                  "remaining_hours": 4,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                },
-                {
-                  "name": "fix",
-                  "estimated_hours": 2,
-                  "remaining_hours": 2,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alex_demo"
-                  }
-                },
-                {
-                  "name": "verify",
-                  "estimated_hours": 8,
-                  "remaining_hours": 8,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "cecil_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Kensington 72337"
-              ],
-              "story_points": "3",
-              "team": {
-                "name": "AOS UI",
-                "description": "Team of UI ",
-                "members": [
-                  "alex_demo",
-                  "alice_demo",
-                  "cecil_demo"
-                ],
-                "releases": [
-                  {
-                    "name": "AOS 1.0",
-                    "description": "Release 1 of Advantage Online Shopping"
-                  }
-                ],
-                "assign_to_new_releases": true,
-                "estimated_velocity": 60
-              },
-              "phase": "phase.defect.opened",
-              "owner": {
-                "name": "alice_demo"
-              }
-            },
-            {
-              "name": "Error \"9234566122\" when adding song  \"Sandra  - Innocent Love\" to shopping cart",
-              "subtype": "defect",
-              "description": "Error \"9234566122\" when adding song  \"Sandra  - Innocent Love\" to shopping cart",
-              "severity": "3-Medium",
-              "priority": "2-High",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 11,
-                  "remaining_hours": 11,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "tom_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Roar"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "Facebook plug in fails on Safari",
-              "subtype": "defect",
-              "description": "Facebook plug in fails on Safari",
-              "severity": "3-Medium",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 9,
-                  "remaining_hours": 9,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "alice_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "ElitePad"
-              ],
-              "story_points": "3",
-              "phase": "phase.defect.new",
-              "owner": {}
-            },
-            {
-              "name": "Back button is disabled when no results are found ",
-              "subtype": "defect",
-              "description": "Back button is disabled when no results are found ",
-              "severity": "2-High",
-              "priority": "1-Show Stopper",
-              "taskEntities": [
-                {
-                  "name": "fix",
-                  "estimated_hours": 6,
-                  "remaining_hours": 6,
-                  "invested_hours": 0,
-                  "owner": {
-                    "name": "paul_demo"
-                  }
-                }
-              ],
-              "detected_by": {
-                "email": "alex_demo",
-                "name": "alex_demo",
-                "first_name": "Alex ",
-                "last_name": "Losovsky",
-                "phone1": "123456"
-              },
-              "product_areas": [
-                "01 Home Banner",
-                "02 Speakers",
-                "Roar Mini"
-              ],
-              "story_points": "5",
-              "phase": "phase.defect.new",
-              "owner": {}
             }
           ],
           "job_size": "3",
@@ -8359,7 +7766,6 @@
           },
           "phase": "phase.feature.inprogress",
           "product_areas": [
-            "ENVY",
             "Secure Login"
           ],
           "story_points": "10",
@@ -8612,7 +8018,7 @@
               "owner": {}
             },
             {
-              "name": "As a user, I can only access Advantage Online Shopping over SSL standards addressing protocol downgrades",
+              "name": "As a user, I can only access Advantage Online Shopping over SSL standards",
               "subtype": "story",
               "taskEntities": [],
               "author": {
@@ -9050,7 +8456,7 @@
         "12 Shopping Cart"
       ],
       "covered_content": [
-        "As a mobile user, I can edit my cart "
+        "As a mobile user, I can edit my cart"
       ],
       "estimated_duration": "23"
     },
@@ -9199,7 +8605,7 @@
         "10 Contact Us"
       ],
       "covered_content": [
-        "As a responsive web user, I can fill out the in site form to contact support"
+        "As a mobile user, I can fill out the in site form to contact support"
       ],
       "estimated_duration": "20"
     },
@@ -9217,34 +8623,13 @@
         "10 Contact Us"
       ],
       "covered_content": [
-        "As a mobile user, I can fill out the in site form to contact support"
+        "As a responsive web user, I can fill out the in site form to contact support"
       ],
       "estimated_duration": "20"
     },
     {
-      "name": "Transfer money from one account to other",
-      "description": "<p>Transfer money from one account to other<p>",
-      "subtype": "gherkin_test",
-      "author": "robert_demo",
-      "designer": "mary_demo",
-      "owner": "mary_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "05 Mice",
-        "15 Security"
-      ],
-      "covered_content": [
-        "As a user, I can transfer money from Advantage Mobile  Store",
-        "As a user, I can transfer money from Advantage Online  Store"
-      ],
-      "estimated_duration": "40"
-    },
-    {
-      "name": "New account creation",
-      "description": "<p>I should be able to enter a new account<p>",
+      "name": "mobile_Verify new account creation",
+      "description": "<p>mobile_Verify new account creation<p>",
       "subtype": "test_manual",
       "author": "mary_demo",
       "designer": "cecil_demo",
@@ -9253,57 +8638,76 @@
         "End to End"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "15 Security",
-        "07 Special Offer",
-        "11 User Profile"
+        "11 User Profile",
+        "Create Account"
       ],
       "covered_content": [
-        "As a user, I can create a new account in Horizon.com",
-        "As a user, I can pay with my PayPal account",
-        "As a site administrator, I can change the account type",
-        "Cannot change password in Chrome"
+        "As a mobile user, I can create an account"
       ],
       "estimated_duration": "30"
     },
     {
-      "name": "Search capabilities",
-      "description": "<p>verifying Search capabilities<p>",
+      "name": "Checkout_Regression",
+      "description": "<p>Checkout Regression<p>",
       "subtype": "test_suite",
       "author": "alex_alm",
       "designer": "robert_demo",
       "owner": "robert_demo",
       "test_type": [
-        "14 Performance"
+        "End to End"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "05 Mice",
-        "14 Performance"
+        "12 Shopping Cart",
+        "14 Performance",
+        "15 Security"
       ],
       "covered_content": [
-        "As a user, I can search my account by entering the first name",
-        "Cannot change password in Chrome",
-        "As a user, I can manage payee from Advantage Online  Store"
+        "As a mobile user, I can edit my cart",
+        "As a responsive web user, I can edit my cart",
+        "Cannot edit my cart in Edge Browser",
+        "As a mobile user, I can navigate to my cart by selecting the cart icon",
+        "As a responsive web user, I can navigate to my cart by selecting the cart icon",
+        "As a mobile user, I can remove items from my cart",
+        "When removing a single item from cart, all items are removed",
+        "As a responsive web user, I can remove items from my cart",
+        "When removing a single item from cart, all items are removed"
       ],
       "tests": [
         {
-          "test": "Verify search my account by entering the first name",
-          "test_suite": "Search capabilities",
+          "test": "mobile_Verify I can edit my cart",
+          "test_suite": "Checkout_Regression",
           "author": "alex_alm"
         },
         {
-          "test": "Verify search my account by entering the last name",
-          "test_suite": "Search capabilities",
+          "test": "Verify I can edit my cart",
+          "test_suite": "Checkout_Regression",
+          "author": "alex_alm"
+        },
+        {
+          "test": "mobile_Verify I can navigate to cart via cart icon",
+          "test_suite": "Checkout_Regression",
+          "author": "alex_alm"
+        },
+        {
+          "test": "Verify I can navigate to cart via cart icon",
+          "test_suite": "Checkout_Regression",
+          "author": "alex_alm"
+        },
+        {
+          "test": "mobile_Verify I can remove items from cart",
+          "test_suite": "Checkout_Regression",
+          "author": "alex_alm"
+        },
+        {
+          "test": "Verify I can remove items from cart",
+          "test_suite": "Checkout_Regression",
           "author": "alex_alm"
         }
       ]
     },
     {
-      "name": "Account setting Verification",
-      "description": "<p>Mobile account setting<p>",
+      "name": "Contact Us_Regression",
+      "description": "<p>Contact Us Regression<p>",
       "subtype": "test_suite",
       "author": "kelly_demo",
       "designer": "robert_demo",
@@ -9312,32 +8716,41 @@
         "End to End"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "07 Special Offer",
-        "15 Security"
+        "10 Contact Us"
       ],
       "covered_content": [
-        "As a user, I can create a new account in Horizon.com",
-        "As a user, I can pay with my PayPal account",
-        "As a user, I can search my account by entering the first name"
+        "As a mobile user, I can open a live chat session with customer support",
+        "As a responsive web user, I can open a live chat session with customer support",
+        "As a mobile user, I can fill out the in site form to contact support",
+        "As a responsive web user, I can fill out the in site form to contact support"
       ],
       "tests": [
         {
-          "test": "New account creation",
-          "test_suite": "Account setting Verification",
+          "test": "mobile_Verify I can open a chat with customer support",
+          "test_suite": "Contact Us_Regression",
           "author": "kelly_demo"
         },
         {
-          "test": "Verify user details are correct in user profile",
-          "test_suite": "Account setting Verification",
+          "test": "Verify I can open a chat with customer support",
+          "test_suite": "Contact Us_Regression",
+          "author": "kelly_demo"
+        },
+        {
+          "test": "mobile_Verify I can open a chat with customer support",
+          "test_suite": "Contact Us_Regression",
+          "author": "kelly_demo"
+        },
+        {
+          "test": "Verify I can open a chat with customer support",
+          "test_suite": "Contact Us_Regression",
           "author": "kelly_demo"
         }
       ]
     },
     {
-      "name": "Send messages with different emoji",
-      "description": "<p>Send messages with different emoji<p>",
-      "subtype": "test_manual",
+      "name": "Verify I can navigate multiple category items",
+      "description": "<p>Verify I can navigate multiple category items<p>",
+      "subtype": "gherkin_test",
       "author": "alice_demo",
       "designer": "alice_demo",
       "owner": "alice_demo",
@@ -9346,16 +8759,23 @@
       ],
       "product_areas": [
         "02 Speakers",
-        "Chromebook"
+        "03 Tablets",
+        "04 Laptops",
+        "05 Mice",
+        "06 Headphones",
+        "Page Jumps"
       ],
       "covered_content": [
-        "As a user, I can select to perform the live chat in Chrome ",
-        "As a user, I can select to perform the live chat in IE"
+        "As a responsive web user, when I click Speakers from the Home page, I am taken to the Speakers category page",
+        "As a responsive web user, when I click Tablets from the Home page, I am taken to the Tablets category page",
+        "As a responsive web user, when I click Laptops from the Home page, I am taken to the Laptops category page",
+        "As a responsive web user, when I click Mice from the Home page, I am taken to the Mice category page",
+        "As a responsive web user, when I click Headphones from the Home page, I am taken to the Headphones category page"
       ],
       "estimated_duration": "22"
     },
     {
-      "name": "Credit card  - Verify that there is a validation on CCV field ",
+      "name": "Verify that there is a validation on CCV field ",
       "description": "<p>Verify that there is a validation on CCV field<p>",
       "subtype": "gherkin_test",
       "author": "alice_demo",
@@ -9365,15 +8785,10 @@
         "End to End"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "Credit Card"
+        "13 Payment"
       ],
       "covered_content": [
-        "As a user, when using a credit card on file, I must supply my CCV details",
-        "As a user, I can make payments from Advantage Mobile  Store",
-        "As a user, I can have multiple credit cards on file",
-        "Credit card page is missing information"
+        "As a user, when using a credit card on file, I must supply my CCV details"
       ],
       "estimated_duration": "40"
     },
@@ -9388,259 +8803,12 @@
         "Acceptance"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "PayPal"
-      ],
-      "covered_content": [
-        "As a user, I can select to download the purchased ETF directly to my iPad",
-        "As a user, I can make payments from Advantage Online  Store"
-      ],
-      "estimated_duration": "23"
-    },
-    {
-      "name": "Billing verification",
-      "description": "<p>Billing verification<p>",
-      "subtype": "test_suite",
-      "author": "tom_demo",
-      "designer": "tom_demo",
-      "owner": "tom_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
         "13 Payment"
       ],
       "covered_content": [
-        "As a user, when using a credit card on file, I must supply my CCV details",
-        "As a user, I can delete a credit card on file",
-        "As a user, I can have multiple credit cards on file",
-        "Credit card page is missing information"
+        "As a user, I can pay with my PayPal account"
       ],
-      "tests": [
-        {
-          "test": "Credit card  - Verify that there is a validation on CCV field ",
-          "test_suite": "Billing verification",
-          "author": "tom_demo"
-        },
-        {
-          "test": "PayPal Verification",
-          "test_suite": "Billing verification",
-          "author": "tom_demo"
-        }
-      ]
-    },
-    {
-      "name": "Send image in existing chat via API",
-      "description": "<p>Send image in existing chat via API<p>",
-      "subtype": "test_manual",
-      "author": "kelly_demo",
-      "designer": "kelly_demo",
-      "owner": "kelly_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "Pavillion",
-        "01 Home Banner"
-      ],
-      "covered_content": [
-        "The system verifies user comments for strong language ",
-        "Error occur when using IE9"
-      ],
-      "estimated_duration": "40"
-    },
-    {
-      "name": "Permissions - Sanity",
-      "description": "<p>Permissions - Sanity<p>",
-      "subtype": "test_manual",
-      "author": "paul_demo",
-      "designer": "paul_demo",
-      "owner": "paul_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "Pavillion",
-        "01 Home Banner"
-      ],
-      "covered_content": [
-        "The system verifies user comments for strong language "
-      ],
-      "estimated_duration": "20"
-    },
-    {
-      "name": "Add image from gallery as attachment",
-      "description": "<p>Add image from gallery as attachment<p>",
-      "subtype": "test_manual",
-      "author": "robert_demo",
-      "designer": "robert_demo",
-      "owner": "robert_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "Pavillion",
-        "01 Home Banner"
-      ],
-      "covered_content": [
-        "The system verifies user comments for strong language "
-      ],
-      "estimated_duration": "10"
-    },
-    {
-      "name": "Send message in English",
-      "description": "<p>Send message in English<p>",
-      "subtype": "test_suite",
-      "author": "mary_demo",
-      "designer": "mary_demo",
-      "owner": "mary_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "Pavillion",
-        "01 Home Banner"
-      ],
-      "covered_content": [
-        "The system verifies user comments for strong language "
-      ],
-      "tests": [
-        {
-          "test": "Send image in existing chat via API",
-          "test_suite": "Send message in English",
-          "author": "mary_demo"
-        },
-        {
-          "test": "Add image from gallery as attachment",
-          "test_suite": "Send message in English",
-          "author": "mary_demo"
-        }
-      ]
-    },
-    {
-      "name": "Check that user can log in to the web interface using his account",
-      "description": "<p>Check that user can log in to the web interface using his account<p>",
-      "subtype": "gherkin_test",
-      "author": "alex_alm",
-      "designer": "alex_alm",
-      "owner": "alex_alm",
-      "test_type": [
-        "14 Performance"
-      ],
-      "product_areas": [
-        "Mobile Login",
-        "UI Performance"
-      ],
-      "covered_content": [
-        "As a user, I can create a new account in Horizon.com"
-      ],
-      "estimated_duration": "40"
-    },
-    {
-      "name": "Check that future action can be viewed",
-      "description": "<p>Check that future action can be viewed<p>",
-      "subtype": "test_manual",
-      "author": "kelly_demo",
-      "designer": "kelly_demo",
-      "owner": "kelly_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "04 Laptops",
-        "01 Home Banner",
-        "02 Speakers",
-        "07 Special Offer"
-      ],
-      "covered_content": [
-        "As a user, I can save live chat history",
-        "As a user, I can see future actions"
-      ],
-      "estimated_duration": "30"
-    },
-    {
-      "name": "Recent transaction can be seen",
-      "description": "<p>ent transaction can be seen<p>",
-      "subtype": "test_manual",
-      "author": "alice_demo",
-      "designer": "alice_demo",
-      "owner": "alice_demo",
-      "test_type": [
-        "14 Performance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "Database Performance"
-      ],
-      "covered_content": [
-        "As a user, I can view a list of recent transactions"
-      ],
-      "estimated_duration": "55"
-    },
-    {
-      "name": "Verify Mobile app in Chrome",
-      "description": "<p>Verify Mobile app in Chrome<p>",
-      "subtype": "gherkin_test",
-      "author": "alice_demo",
-      "designer": "alice_demo",
-      "owner": "alice_demo",
-      "test_type": [
-        "14 Performance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "Database Performance"
-      ],
-      "covered_content": [
-        "As a user, I can select to perform the live chat in Chrome ",
-        "Cannot change password in Chrome"
-      ],
-      "estimated_duration": "15"
-    },
-    {
-      "name": "Verify search by date",
-      "description": "<p>Verify search by date<p>",
-      "subtype": "test_manual",
-      "author": "cecil_demo",
-      "designer": "cecil_demo",
-      "owner": "cecil_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "05 Mice"
-      ],
-      "covered_content": [
-        "Search by date returns NULL results",
-        "As a user, I can search my account by entering the first name"
-      ],
-      "estimated_duration": "22"
-    },
-    {
-      "name": "Verify user notify on billing",
-      "description": "<p>Verify user notify on billing<p>",
-      "subtype": "test_manual",
-      "author": "tom_demo",
-      "designer": "tom_demo",
-      "owner": "tom_demo",
-      "test_type": [
-        "End to End"
-      ],
-      "product_areas": [
-        "08 Explore Now",
-        "13 Payment",
-        "01 Home Banner",
-        "02 Speakers"
-      ],
-      "covered_content": [
-        "Help page is not open properly via F1"
-      ],
-      "estimated_duration": "40"
+      "estimated_duration": "23"
     },
     {
       "name": "Update password ",
@@ -9653,73 +8821,16 @@
         "End to End"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "07 Special Offer",
-        "15 Security"
+        "11 User Profile",
+        "15 Security",
+        "Password",
+        "Secure Login",
+        "Facebook Sign In"
       ],
       "covered_content": [
         "Session timeout is 60 min instead of 20 min"
       ],
       "estimated_duration": "23"
-    },
-    {
-      "name": "Add item to Shopping basket ",
-      "description": "<p>Add item to Shopping basket <p>",
-      "subtype": "test_manual",
-      "author": "paul_demo",
-      "designer": "paul_demo",
-      "owner": "paul_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers"
-      ],
-      "covered_content": [
-        "As a user, I can order several checkbooks to my Shopping Cart",
-        "Error \"9234566122\" when adding song  \"Sandra  - Innocent Love\" to shopping cart"
-      ],
-      "estimated_duration": "23"
-    },
-    {
-      "name": "Install app on IOS",
-      "description": "<p>Verify installation on IOS <p>",
-      "subtype": "test_manual",
-      "author": "robert_demo",
-      "designer": "robert_demo",
-      "owner": "robert_demo",
-      "test_type": [
-        "Regression"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "07 Special Offer"
-      ],
-      "covered_content": [
-        "As a user, I can download and play on IOS device"
-      ],
-      "estimated_duration": "40"
-    },
-    {
-      "name": "Delete item from basket",
-      "description": "<p>Delete item from basket<p>",
-      "subtype": "gherkin_test",
-      "author": "mary_demo",
-      "designer": "mary_demo",
-      "owner": "mary_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers"
-      ],
-      "covered_content": [
-        "Cannot delete payee from Advantage Mobile Store"
-      ],
-      "estimated_duration": "20"
     },
     {
       "name": "I can request to block my account when account hijacking is suspected",
@@ -9732,9 +8843,7 @@
         "End to End"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "07 Special Offer",
+        "11 User Profile",
         "15 Security"
       ],
       "covered_content": [
@@ -9743,9 +8852,9 @@
       "estimated_duration": "10"
     },
     {
-      "name": "SSL 256 verification",
+      "name": "Verify SSL 256",
       "description": "<p>All communication must be SSL 256 -bit encrypted <p>",
-      "subtype": "gherkin_test",
+      "subtype": "test_manual",
       "author": "kelly_demo",
       "designer": "kelly_demo",
       "owner": "kelly_demo",
@@ -9753,214 +8862,13 @@
         "Acceptance"
       ],
       "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "15 Security"
+        "15 Security",
+        "Secure Login"
       ],
       "covered_content": [
-        "All communication must be SSL 256 -bit encrypted "
+        "As a user, I can only access Advantage Online Shopping over SSL standards"
       ],
       "estimated_duration": "50"
-    },
-    {
-      "name": "Exchange from Dollar to Euro",
-      "description": "<p>Exchange from Dollar to Euro<P>",
-      "subtype": "test_manual",
-      "author": "alice_demo",
-      "designer": "alice_demo",
-      "owner": "alice_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "07 Special Offer",
-        "13 Payment"
-      ],
-      "covered_content": [
-        "As a user, I can check rate of dollar",
-        "Euro-Dollar converter produces NULL values when amount > 1000"
-      ],
-      "estimated_duration": "40"
-    },
-    {
-      "name": "Paying from Advantage Online  Store",
-      "description": "<p>Paying from Advantage Online  Store<p>",
-      "subtype": "test_manual",
-      "author": "alice_demo",
-      "designer": "alice_demo",
-      "owner": "alice_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "13 Payment"
-      ],
-      "covered_content": [
-        "As a user, I can make payments from Advantage Online  Store"
-      ],
-      "estimated_duration": "30"
-    },
-    {
-      "name": "Paying from Advantage Mobile  Store",
-      "description": "<p>Paying from Advantage Mobile  Store<p>",
-      "subtype": "test_manual",
-      "author": "cecil_demo",
-      "designer": "cecil_demo",
-      "owner": "cecil_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "02 Speakers",
-        "13 Payment"
-      ],
-      "covered_content": [
-        "As a user, I can make payments from Advantage Mobile  Store"
-      ],
-      "estimated_duration": "55"
-    },
-    {
-      "name": "Open live chat from FireFox",
-      "description": "<p>Open live chat from FireFox<p>",
-      "subtype": "gherkin_test",
-      "author": "tom_demo",
-      "designer": "tom_demo",
-      "owner": "tom_demo",
-      "test_type": [
-        "Regression"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "04 Laptops"
-      ],
-      "covered_content": [
-        "As a user, I can select to perform the live chat in Firefox"
-      ],
-      "estimated_duration": "15"
-    },
-    {
-      "name": "Verify limitation for single purchase ",
-      "description": "<p>Verify limitation for single purchase <p>",
-      "subtype": "test_manual",
-      "author": "kelly_demo",
-      "designer": "kelly_demo",
-      "owner": "kelly_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "07 Special Offer"
-      ],
-      "covered_content": [
-        "As a user, I can limit the maximum amount allocated for a single purchase"
-      ],
-      "estimated_duration": "22"
-    },
-    {
-      "name": "Printing invoice",
-      "description": "<p> Verify  user can print my invoice after checking out <p>",
-      "subtype": "test_manual",
-      "author": "paul_demo",
-      "designer": "paul_demo",
-      "owner": "paul_demo",
-      "test_type": [
-        "Regression"
-      ],
-      "product_areas": [
-        "02 Speakers",
-        "07 Special Offer"
-      ],
-      "covered_content": [
-        "As a user, I can print my invoice after checking out "
-      ],
-      "estimated_duration": "40"
-    },
-    {
-      "name": "Verify purchase cancellation",
-      "description": "<p> Verify purchase cancellation<p>",
-      "subtype": "test_manual",
-      "author": "robert_demo",
-      "designer": "robert_demo",
-      "owner": "robert_demo",
-      "test_type": [
-        "Acceptance"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "13 Payment"
-      ],
-      "covered_content": [
-        "As a user, I can cancel a money transfer action before the required date",
-        "As a user , I can cancel a future purchase"
-      ],
-      "estimated_duration": "55"
-    },
-    {
-      "name": "Regression set Search",
-      "description": "<p>Regression set Search<p>",
-      "subtype": "test_manual",
-      "author": "mary_demo",
-      "designer": "mary_demo",
-      "owner": "mary_demo",
-      "test_type": [
-        "Regression"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "02 Speakers",
-        "05 Mice"
-      ],
-      "covered_content": [
-        "As a user, I can search my account by entering the first name",
-        "As a user, I can manage payee from Advantage Online  Store"
-      ],
-      "estimated_duration": "15"
-    },
-    {
-      "name": "Regression set Live chat",
-      "description": "<p>Regression set Live chat<p>",
-      "subtype": "test_manual",
-      "author": "alex_alm",
-      "designer": "alex_alm",
-      "owner": "alex_alm",
-      "test_type": [
-        "Regression"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "Chromebook",
-        "ENVY"
-      ],
-      "covered_content": [
-        "As a user, I can perform live chat from Advantage Online  Store "
-      ],
-      "estimated_duration": "22"
-    },
-    {
-      "name": "Regression set Billing",
-      "description": "<p>Regression set Search<p>",
-      "subtype": "test_manual",
-      "author": "kelly_demo",
-      "designer": "kelly_demo",
-      "owner": "kelly_demo",
-      "test_type": [
-        "Regression"
-      ],
-      "product_areas": [
-        "01 Home Banner",
-        "Database Performance"
-      ],
-      "covered_content": [
-        "As a user, I can select to download the purchased ETF directly to my iPad"
-      ],
-      "estimated_duration": "40"
     }
   ]
 }
